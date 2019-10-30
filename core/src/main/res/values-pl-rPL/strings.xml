@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Uaktualnij subskrypcje</string>
   <string name="feeds_label">Kanały</string>
@@ -223,7 +223,7 @@
   <string name="no_media_playing_label">Żadne media nie odtwarzane </string>
   <string name="player_buffering_msg">Buferowanie</string>
   <string name="playbackservice_notification_title">Odtwarzenie podcastu </string>
-  <string name="unknown_media_key">AntennaPod - Nieznany klawisz: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Nieznany klawisz: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Zablokuj Kolejkę</string>
   <string name="unlock_queue">Odblokuj Kolejkę</string>
@@ -245,7 +245,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Pobierz wtyczkę</string>
   <string name="no_playback_plugin_title">Wtyczka nie zainstalowana</string>
-  <string name="no_playback_plugin_or_sonic_msg">Dla odtwarzania w różnych prędkościach zalecamy odblokowania wbudowanego odtwarzacza Sonic [Android 4.1+].\n\nW innym przypadku możesz użycz zewnętrznego dodatku. <i>Prestissimo</i> ze Sklepu Play.\nAntennaPod nie ponosi odpowiedzialności za problemy z   Prestissimo, powinny one być zgłaszane do właściciela dodatku.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Dla odtwarzania w różnych prędkościach zalecamy odblokowania wbudowanego odtwarzacza Sonic [Android 4.1+].\n\nW innym przypadku możesz użycz zewnętrznego dodatku. <i>Prestissimo</i> ze Sklepu Play.\nCoinPod nie ponosi odpowiedzialności za problemy z   Prestissimo, powinny one być zgłaszane do właściciela dodatku.</string>
   <string name="set_playback_speed_label">Prędkość odtwarzania</string>
   <string name="enable_sonic">Włącz Sonic</string>
   <!--Empty list labels-->
@@ -309,7 +309,7 @@
   <string name="pref_nav_drawer_feed_order_title">Ustaw kolejność subskrypcji</string>
   <string name="pref_nav_drawer_feed_order_sum">Zmień kolejność subskrybowanych kanałów</string>
   <string name="pref_nav_drawer_feed_counter_title">Ustaw licznik subskrypcji</string>
-  <string name="pref_set_theme_sum">Zmień wygląd AntennaPod.</string>
+  <string name="pref_set_theme_sum">Zmień wygląd CoinPod.</string>
   <string name="pref_automatic_download_title">Automatyczne pobieranie</string>
   <string name="pref_automatic_download_sum">Skonfiguruj automatyczne pobieranie odcinków.</string>
   <string name="pref_autodl_wifi_filter_title">Włącz filtr Wi-Fi</string>
@@ -378,7 +378,7 @@
   <string name="pref_no_browser_found">Nie znaleziono przeglądarki.</string>
   <string name="pref_cast_title">Obsługa Chromecast</string>
   <string name="pref_cast_message_play_flavor">Uruchom obsługę dla zdalnego odtwarzania mediów na innych urządzeniach (takich jak Chromecast, Audio Speakers albo Android TV)</string>
-  <string name="pref_cast_message_free_flavor">Chromecast wymagadodatkowych bibliotek, które są zablokowane w tej wersji AntennaPod</string>
+  <string name="pref_cast_message_free_flavor">Chromecast wymagadodatkowych bibliotek, które są zablokowane w tej wersji CoinPod</string>
   <string name="pref_enqueue_downloaded_title">Rzeczy z kolejki pobrane</string>
   <string name="pref_enqueue_downloaded_summary">Dodaj pobrane odcinki do kolejki</string>
   <string name="behavior">Zachowanie</string>
@@ -397,7 +397,7 @@
   <string name="opml_import_option">Opcja %1$d</string>
   <string name="opml_import_explanation_1">Wybierz konkretą ścieżkę z lokalnego systemu plików.</string>
   <string name="opml_import_explanation_2">Użyj zewnętrznej aplikacji takiej jak Dropbox, Google Drive lub ulubionego menedżera plików, aby otworzyć plik OPML.</string>
-  <string name="opml_import_explanation_3">Wiele aplikacji takich jak Google Mail, Dropbox, Google Drive i większość menedżerów plików potrafi <i>otworzyć</i>pliki OPML <i>przy użyciu</i>AntennaPod</string>
+  <string name="opml_import_explanation_3">Wiele aplikacji takich jak Google Mail, Dropbox, Google Drive i większość menedżerów plików potrafi <i>otworzyć</i>pliki OPML <i>przy użyciu</i>CoinPod</string>
   <string name="start_import_label">Rozpocznij import</string>
   <string name="opml_import_label">Import OPML</string>
   <string name="opml_directory_error">BŁĄD!</string>
@@ -473,7 +473,7 @@ https://gpodder.net/register/</string>
   <string name="gpodnetauth_device_caption_errorEmpty">Pole nie może być puste</string>
   <string name="gpodnetauth_device_butChoose">Wybierz</string>
   <string name="gpodnetauth_finish_title">Logowanie zakończone sukcesem!</string>
-  <string name="gpodnetauth_finish_descr">Gratulacje! Twoje konto na gpodder.net jest połączone z urządzeniem.  AntennaPod będzie automatycznie synchronizować subskrypcje na urządzeniu z kontem na gpodder.net. </string>
+  <string name="gpodnetauth_finish_descr">Gratulacje! Twoje konto na gpodder.net jest połączone z urządzeniem.  CoinPod będzie automatycznie synchronizować subskrypcje na urządzeniu z kontem na gpodder.net. </string>
   <string name="gpodnetauth_finish_butsyncnow">Rozpocznij synchronizację</string>
   <string name="gpodnetauth_finish_butgomainscreen">Idź do strony głównej</string>
   <string name="gpodnetsync_auth_error_title">Błąd autoryzacji na gpodder.net</string>
@@ -486,7 +486,7 @@ https://gpodder.net/register/</string>
   <string name="selected_folder_label">Wybrany folder:</string>
   <string name="create_folder_label">Utwórz folder</string>
   <string name="choose_data_directory">Wybierz folder danych</string>
-  <string name="choose_data_directory_message">Wybierz główny folder dla danych. AntennaPod utworzy odpowiednie podkatalogi.</string>
+  <string name="choose_data_directory_message">Wybierz główny folder dla danych. CoinPod utworzy odpowiednie podkatalogi.</string>
   <string name="choose_data_directory_permission_rationale">Dostęp do pamięci zewnętrznej jest wymagany do zmiany folderu danych.</string>
   <string name="create_folder_msg">Utworzyć nowy folder o nazwie \"%1$s\"?</string>
   <string name="create_folder_success">Utworzono nowy folder</string>
@@ -503,7 +503,7 @@ https://gpodder.net/register/</string>
   <string name="pref_pausePlaybackForFocusLoss_title">Wstrzymaj przy przerwaniu</string>
   <string name="pref_resumeAfterCall_sum">Wznów odtwarzanie po zakończeniu połączenia telefonicznego</string>
   <string name="pref_resumeAfterCall_title">Wznów po połączeniu</string>
-  <string name="pref_restart_required">AntennaPod musi zostać uruchomiony ponownie, by zmiany odniosły skutek.</string>
+  <string name="pref_restart_required">CoinPod musi zostać uruchomiony ponownie, by zmiany odniosły skutek.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Subskrybuj</string>
   <string name="subscribed_label">Subskrybowane</string>
@@ -530,7 +530,7 @@ https://gpodder.net/register/</string>
   <string name="keep_updated">Utrzymuj zaktualizowane</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Aktualizacja bazy danych</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Importowanie subskrybcji z jednozadaniowych aplikacji</string>
   <!--Add podcast fragment-->
   <string name="search_itunes_label">Szukaj w iTunes</string>
@@ -563,8 +563,8 @@ https://gpodder.net/register/</string>
   <string name="sort_duration_short_long">Długość (Krótkie \u2192 Długie)</string>
   <string name="sort_duration_long_short">Długość (Długie \u2192 Krótkie)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Podoba Ci się AntennaPod?</string>
-  <string name="rating_message">Bylibyśmy wdzięczni, jeśli poświęciłbyś chwilę aby ocenić AntennaPod.</string>
+  <string name="rating_title">Podoba Ci się CoinPod?</string>
+  <string name="rating_message">Bylibyśmy wdzięczni, jeśli poświęciłbyś chwilę aby ocenić CoinPod.</string>
   <string name="rating_never_label">Daj mi spokój</string>
   <string name="rating_later_label">Przypomnij później</string>
   <string name="rating_now_label">Pewnie, zróbmy to!</string>
@@ -592,12 +592,12 @@ https://gpodder.net/register/</string>
   <!--Subscriptions fragment-->
   <!--Database import/export-->
   <string name="import_export">Import/Export bazy danych</string>
-  <string name="import_export_warning">Ta eksperymentalna funkcja może zostać użyta do przeniesienia Twoich subskrypcji i już obejrzanych odcinków na inne urządzenie.\n\n Wyeksportowana baza może zostać zaimportowana jedynie taką samą wersją programu AntennaPod. W innym przypadku może to spowodować nieprzewidziane zachowanie programu.\n\n Po zaimportowaniu, odcinki mogą być pokazane jako pobrane pomimo tego iż nie zostały pobrane. Wystarczy kliknąć odtwórz odcinek aby AntennaPod wykrył poprawny stan pliku.</string>
+  <string name="import_export_warning">Ta eksperymentalna funkcja może zostać użyta do przeniesienia Twoich subskrypcji i już obejrzanych odcinków na inne urządzenie.\n\n Wyeksportowana baza może zostać zaimportowana jedynie taką samą wersją programu CoinPod. W innym przypadku może to spowodować nieprzewidziane zachowanie programu.\n\n Po zaimportowaniu, odcinki mogą być pokazane jako pobrane pomimo tego iż nie zostały pobrane. Wystarczy kliknąć odtwórz odcinek aby CoinPod wykrył poprawny stan pliku.</string>
   <string name="label_import">Import</string>
   <string name="label_export">Export</string>
   <string name="import_select_file">Wybierz plik do Importowania</string>
   <string name="export_ok">Export zakończony powodzeniem</string>
-  <string name="import_ok">Import zakończony powodzeniem.\n\nNaciśnij OK aby zrestartować AntennaPod</string>
+  <string name="import_ok">Import zakończony powodzeniem.\n\nNaciśnij OK aby zrestartować CoinPod</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Odtwarzaj na...</string>
   <string name="cast_disconnect_label">Rozłącz sesję</string>

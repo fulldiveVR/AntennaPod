@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feeds_label">Các feed</string>
   <string name="statistics_label">Thống kê</string>
@@ -274,7 +274,7 @@
   <!--Content descriptions for image buttons-->
   <!--Feed information screen-->
   <!--Progress information-->
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="search_itunes_label">Tìm kiếm iTunes</string>
   <string name="filter">Lọc</string>
   <string name="search_fyyd_label">Tìm kiếm fyyd</string>

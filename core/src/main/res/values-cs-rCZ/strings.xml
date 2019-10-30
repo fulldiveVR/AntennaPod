@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Aktualizovat sbírky</string>
   <string name="feeds_label">Kanály</string>
@@ -210,7 +210,7 @@
   <string name="no_media_playing_label">Žádné probíhající přehrávání</string>
   <string name="player_buffering_msg">Načítání</string>
   <string name="playbackservice_notification_title">Přehrávaný podcast</string>
-  <string name="unknown_media_key">AntennaPod - Neznámý klíč médií: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Neznámý klíč médií: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Zamknout frontu</string>
   <string name="unlock_queue">Odemknout frontu</string>
@@ -235,7 +235,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Stáhnout modul</string>
   <string name="no_playback_plugin_title">Modul není nainstalován</string>
-  <string name="no_playback_plugin_or_sonic_msg">Pro fungující proměnné rychlosti přehrávání doporučujeme povolit zabudovaný Sonic mediaplayer [Android 4.1+].\n\nAlternativně je možné z Obchodu Play stáhnout zásuvný modul třetí strany <i>Prestissimo</i>.\nAntennaPod nenese zodpovědnost za jakékoliv problémy s modulem Prestissimo a ty by měly být hlášeny jeho vývojářům.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Pro fungující proměnné rychlosti přehrávání doporučujeme povolit zabudovaný Sonic mediaplayer [Android 4.1+].\n\nAlternativně je možné z Obchodu Play stáhnout zásuvný modul třetí strany <i>Prestissimo</i>.\nCoinPod nenese zodpovědnost za jakékoliv problémy s modulem Prestissimo a ty by měly být hlášeny jeho vývojářům.</string>
   <string name="set_playback_speed_label">Rychlosti přehrávání</string>
   <string name="enable_sonic">Povolit Sonic</string>
   <!--Empty list labels-->
@@ -289,7 +289,7 @@
   <string name="pref_nav_drawer_feed_order_title">Nastavit pořadí sbírek</string>
   <string name="pref_nav_drawer_feed_order_sum">Upravit pořadí vašich sbírek</string>
   <string name="pref_nav_drawer_feed_counter_title">Nastavit počítadlo sbírek</string>
-  <string name="pref_set_theme_sum">Změnit vzhled AntennaPod.</string>
+  <string name="pref_set_theme_sum">Změnit vzhled CoinPod.</string>
   <string name="pref_automatic_download_title">Automatické stahování</string>
   <string name="pref_automatic_download_sum">Nastavení automatického stahování epizod.</string>
   <string name="pref_autodl_wifi_filter_title">Zapnout Wi-Fi filtr</string>
@@ -352,7 +352,7 @@
   <string name="pref_no_browser_found">Webový prohlížeč nenalezen.</string>
   <string name="pref_cast_title">Chromecast podpora</string>
   <string name="pref_cast_message_play_flavor">Povolit podporu vzdáleného přehrávání médií na Cast přístrojích (jako třeba Chromecast, Audio Speakers nebo Android TV)</string>
-  <string name="pref_cast_message_free_flavor">Chromecast vyžaduje proprietární knihovny třetích stran, které jsou vypnuty v této verzi AntennaPod</string>
+  <string name="pref_cast_message_free_flavor">Chromecast vyžaduje proprietární knihovny třetích stran, které jsou vypnuty v této verzi CoinPod</string>
   <!--Search-->
   <string name="search_hint">Hledat epizody</string>
   <string name="found_in_shownotes_label">Nalezeno v poznámkách pořadu</string>
@@ -366,7 +366,7 @@
   <string name="opml_import_option">Možnost %1$d</string>
   <string name="opml_import_explanation_1">Vybrat umístění v místním souborovém systému.</string>
   <string name="opml_import_explanation_2">Použít externí aplikaci jako třeba Dropbox, Google Drive nebo oblíbeného správce souborů k otevření OPML souboru.</string>
-  <string name="opml_import_explanation_3">Mnoho aplikací jako třeba Google Mail, Dropbox, Google Drive a většina správců souborů umí <i>otevřít</i> OPML soubory <i>v aplikaci</i> AntennaPod.</string>
+  <string name="opml_import_explanation_3">Mnoho aplikací jako třeba Google Mail, Dropbox, Google Drive a většina správců souborů umí <i>otevřít</i> OPML soubory <i>v aplikaci</i> CoinPod.</string>
   <string name="start_import_label">Importovat</string>
   <string name="opml_import_label">OPML import</string>
   <string name="opml_directory_error">CHYBA!</string>
@@ -439,7 +439,7 @@
   <string name="gpodnetauth_device_caption_errorEmpty">Titulek nesmí být prázdný</string>
   <string name="gpodnetauth_device_butChoose">Vybrat</string>
   <string name="gpodnetauth_finish_title">Úspěšně přihlášeno!</string>
-  <string name="gpodnetauth_finish_descr">Gratulujeme! Váš gpodder.net účet je nyní úspěšně propojen s vaším zařízením. AntennaPod bude automaticky synchronizovat odebírané podcasty s nastaveným účtem na gpodder.net.</string>
+  <string name="gpodnetauth_finish_descr">Gratulujeme! Váš gpodder.net účet je nyní úspěšně propojen s vaším zařízením. CoinPod bude automaticky synchronizovat odebírané podcasty s nastaveným účtem na gpodder.net.</string>
   <string name="gpodnetauth_finish_butsyncnow">Synchronizovat nyní</string>
   <string name="gpodnetauth_finish_butgomainscreen">Přejít na hlavní obrazovku</string>
   <string name="gpodnetsync_auth_error_title">gpodder.net autentizace selhala</string>
@@ -452,7 +452,7 @@
   <string name="selected_folder_label">Vybraný adresář:</string>
   <string name="create_folder_label">Vytvořit adresář</string>
   <string name="choose_data_directory">Vybrat umístění dat</string>
-  <string name="choose_data_directory_message">Vyberte prosím váš výchozí datový adresář. AntennaPod vytvoří všechny potřebné podadresáře.</string>
+  <string name="choose_data_directory_message">Vyberte prosím váš výchozí datový adresář. CoinPod vytvoří všechny potřebné podadresáře.</string>
   <string name="choose_data_directory_permission_rationale">Ke změně datového adresáře je vyžadován přístup k externímu úložišti</string>
   <string name="create_folder_msg">Vytvořit adresář \"%1$s\"?</string>
   <string name="create_folder_success">Nový adresář vytvořen</string>
@@ -469,7 +469,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Automatické pozastavení přehrávání</string>
   <string name="pref_resumeAfterCall_sum">Pokračovat v přehrávání po ukončení telefonního hovoru</string>
   <string name="pref_resumeAfterCall_title">Pokračovat po telefonátu</string>
-  <string name="pref_restart_required">Pro aktivování změn nastavení bylo třeba restartovat aplikaci AntennaPod.</string>
+  <string name="pref_restart_required">Pro aktivování změn nastavení bylo třeba restartovat aplikaci CoinPod.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Odebírat</string>
   <string name="subscribed_label">Odebíráno</string>
@@ -496,7 +496,7 @@
   <string name="keep_updated">Udržovat aktuální</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Probíhá aktualizace databáze</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Importuji odběry z jednoúčelových aplikací...</string>
   <!--Add podcast fragment-->
   <string name="search_itunes_label">Prohledat iTunes</string>
@@ -529,8 +529,8 @@
   <string name="sort_duration_short_long">Délka (Krátké \u2192 Dlouhé)</string>
   <string name="sort_duration_long_short">Délka (Dlouhé \u2192 Krátké)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Líbí se vám AntennaPod?</string>
-  <string name="rating_message">Oceníme, pokud věnujete chvíli času ohodnocení AntennaPod.</string>
+  <string name="rating_title">Líbí se vám CoinPod?</string>
+  <string name="rating_message">Oceníme, pokud věnujete chvíli času ohodnocení CoinPod.</string>
   <string name="rating_never_label">Neobtěžuj mě</string>
   <string name="rating_later_label">Upozornit později</string>
   <string name="rating_now_label">Jasně, s radostí!</string>

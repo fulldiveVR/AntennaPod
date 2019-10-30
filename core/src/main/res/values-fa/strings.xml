@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">به‌روز رسانی اشتراک‌ها</string>
   <string name="feeds_label">خوراک</string>
@@ -310,7 +310,7 @@
   <!--Content descriptions for image buttons-->
   <!--Feed information screen-->
   <!--Progress information-->
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <!--Add podcast fragment-->
   <!--Episodes apply actions-->
   <!--Sort-->

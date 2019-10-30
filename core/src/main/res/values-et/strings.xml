@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feeds_label">Uudisvood</string>
   <string name="statistics_label">Statistika</string>
@@ -182,7 +182,7 @@
   <string name="no_media_playing_label">Mingit faili ei esitata</string>
   <string name="player_buffering_msg">Puhverdamine</string>
   <string name="playbackservice_notification_title">Taskuhäälingu esitamine</string>
-  <string name="unknown_media_key">AntennaPod - Tundmatu meedia võti: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Tundmatu meedia võti: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Lukusta järjekord</string>
   <string name="unlock_queue">Eemalda järjekorra lukustus</string>
@@ -387,7 +387,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Peata kõne korral</string>
   <string name="pref_resumeAfterCall_sum">Taasta esitamine pärast telefonikõne lõppu</string>
   <string name="pref_resumeAfterCall_title">Taasta pärast kõne lõppu</string>
-  <string name="pref_restart_required">Selle muudatuse mõjumiseks tuleb AntennaPod taaskäivitada.</string>
+  <string name="pref_restart_required">Selle muudatuse mõjumiseks tuleb CoinPod taaskäivitada.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Telli</string>
   <string name="subscribed_label">Tellitud</string>
@@ -411,7 +411,7 @@
   <string name="keep_updated">Hoia uuendatuna</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Andmebaasi uuendamine</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <!--Add podcast fragment-->
   <string name="search_itunes_label">Otsi iTunest</string>
   <string name="filter">Filter</string>
@@ -442,8 +442,8 @@
   <string name="sort_duration_short_long">Kestus (lühike \u2192 pikk)</string>
   <string name="sort_duration_long_short">Kestus (pikk \u2192 lühike)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Kas sulle meeldib AntennaPod?</string>
-  <string name="rating_message">Me hindame, kui sa saaksid võtta aega, et hinnata AntennaPodi.</string>
+  <string name="rating_title">Kas sulle meeldib CoinPod?</string>
+  <string name="rating_message">Me hindame, kui sa saaksid võtta aega, et hinnata CoinPodi.</string>
   <string name="rating_never_label">Jäta mind rahule</string>
   <string name="rating_later_label">Tuleta hiljem meelde</string>
   <string name="rating_now_label">Jah, otseloomulikult!</string>

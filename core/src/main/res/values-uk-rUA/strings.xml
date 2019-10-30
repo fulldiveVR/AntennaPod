@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Оновити підписки</string>
   <string name="feeds_label">Канали</string>
@@ -276,7 +276,7 @@
   <string name="player_buffering_msg">Буферізую</string>
   <string name="player_go_to_picture_in_picture">Режим зображення в зображенні</string>
   <string name="playbackservice_notification_title">Грає подкаст</string>
-  <string name="unknown_media_key">AntennaPod - Невідомий медіа ключ: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Невідомий медіа ключ: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Заблокувати чергу</string>
   <string name="unlock_queue">Розблокувати чергу</string>
@@ -300,7 +300,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Завантажити додаток</string>
   <string name="no_playback_plugin_title">Додаток не встановлено</string>
-  <string name="no_playback_plugin_or_sonic_msg">Для програвання зі змінною швидкістю, ми радимо включити вбудований програвач Sonic [Android 4.1+].\n\nАбо ви можете завантажити додаток <i>Prestissimo</i> із Play Store.\nБудь які проблеми з Prestissimo не є відповідальністю розробників AntennaPod та мають вирішуватись авторами додатка.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Для програвання зі змінною швидкістю, ми радимо включити вбудований програвач Sonic [Android 4.1+].\n\nАбо ви можете завантажити додаток <i>Prestissimo</i> із Play Store.\nБудь які проблеми з Prestissimo не є відповідальністю розробників CoinPod та мають вирішуватись авторами додатка.</string>
   <string name="set_playback_speed_label">Швидкість програвання</string>
   <string name="enable_sonic">Включити Sonic</string>
   <!--Empty list labels-->
@@ -384,7 +384,7 @@
   <string name="pref_nav_drawer_feed_order_sum">Змінити порядок ваших підписок</string>
   <string name="pref_nav_drawer_feed_counter_title">Налаштувати лічильник підписок</string>
   <string name="pref_nav_drawer_feed_counter_sum">Змініть інформацію, що відображається лічильником підписки. Також впливає на сортування підписок, якщо для параметра \"Порядок підписок\" встановлено значення \"Лічильник\".</string>
-  <string name="pref_set_theme_sum">Змінити вигляд AntennaPod</string>
+  <string name="pref_set_theme_sum">Змінити вигляд CoinPod</string>
   <string name="pref_automatic_download_title">Автозавантаження</string>
   <string name="pref_automatic_download_sum">Налаштування автозавантаження епізодів</string>
   <string name="pref_autodl_wifi_filter_title">Увімкнути фільтр Wi-Fi</string>
@@ -457,7 +457,7 @@
   <string name="pref_no_browser_found">Веб браузер не знайдено.</string>
   <string name="pref_cast_title">Підтримка для Chromecast</string>
   <string name="pref_cast_message_play_flavor">Включити підтримку програвання на таких пристроях як Chromecast або Android TV</string>
-  <string name="pref_cast_message_free_flavor">Для підтримки Chromecast потрібні бібліотеки які не включені в цю версію AntennaPod</string>
+  <string name="pref_cast_message_free_flavor">Для підтримки Chromecast потрібні бібліотеки які не включені в цю версію CoinPod</string>
   <string name="pref_enqueue_downloaded_title">Додати завантаження до черги</string>
   <string name="pref_enqueue_downloaded_summary">Додавати завантажені епізоди до черги</string>
   <string name="media_player_builtin">Стандартний плеєр Android</string>
@@ -473,7 +473,7 @@
   <string name="back_button_open_drawer">Відкрити меню навігації</string>
   <string name="back_button_double_tap">Натисніть двічі, щоб вийти</string>
   <string name="back_button_show_prompt">Підтвердіть вихід</string>
-  <string name="close_prompt">Дійсно закрити AntennaPod?</string>
+  <string name="close_prompt">Дійсно закрити CoinPod?</string>
   <string name="double_tap_toast">Натисніть кнопку назад ще раз, щоб вийти</string>
   <string name="back_button_go_to_page">Перейти на сторінку…</string>
   <string name="back_button_go_to_page_title">Вибрати сторінку</string>
@@ -494,7 +494,7 @@
   <string name="opml_import_option">Варіант %1$d</string>
   <string name="opml_import_explanation_1">Виберіть шлях до файлу з локальної файлової системи.</string>
   <string name="opml_import_explanation_2">Вибрати OPML файл за допомогою таких додатків як Dropbox, Google Drive або файловий менеджер.</string>
-  <string name="opml_import_explanation_3">Багато додатків, таких як Google Mail, Dropbox, Google Drive та більшість файлових менеджерів, здатні <i>відкривати</i> OPML файли <i>за допомогою</i> AntennaPod.</string>
+  <string name="opml_import_explanation_3">Багато додатків, таких як Google Mail, Dropbox, Google Drive та більшість файлових менеджерів, здатні <i>відкривати</i> OPML файли <i>за допомогою</i> CoinPod.</string>
   <string name="start_import_label">Почати імпорт</string>
   <string name="opml_import_label">Імпорт OPML</string>
   <string name="opml_directory_error">Помилка!</string>
@@ -582,7 +582,7 @@
   <string name="selected_folder_label">Обрати папку:</string>
   <string name="create_folder_label">Нова папка</string>
   <string name="choose_data_directory">Обрати папку</string>
-  <string name="choose_data_directory_message">Оберіть, будь ласка, базовий каталог даних. AntennaPod створить відповідні підрозділи.</string>
+  <string name="choose_data_directory_message">Оберіть, будь ласка, базовий каталог даних. CoinPod створить відповідні підрозділи.</string>
   <string name="choose_data_directory_permission_rationale">Для зміни папки зберігання даних потрібен доступ до зовнішнього носія</string>
   <string name="create_folder_msg">Створити папку з ім\'ям \"%1$s\"?</string>
   <string name="create_folder_success">Створена нова папка</string>
@@ -599,7 +599,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Пауза в разі переривання</string>
   <string name="pref_resumeAfterCall_sum">Поновити відтворення після закінчення дзвінка</string>
   <string name="pref_resumeAfterCall_title">Поновити після дзвінка</string>
-  <string name="pref_restart_required">Для застосування змін потрібно перезапустити AntennaPod</string>
+  <string name="pref_restart_required">Для застосування змін потрібно перезапустити CoinPod</string>
   <!--Online feed view-->
   <string name="subscribe_label">Підписатися</string>
   <string name="subscribed_label">Підписано</string>
@@ -626,7 +626,7 @@
   <string name="keep_updated">Підтримувати оновленим</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Оновлення бази даних</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Імпорт подкастів з інших програм...</string>
   <!--Add podcast fragment-->
   <string name="search_itunes_label">Пошук в iTunes</string>
@@ -659,8 +659,8 @@
   <string name="sort_duration_short_long">Тривалість (Короткі \u2192 Довгі)</string>
   <string name="sort_duration_long_short">Тривалість (Довгі \u2192 Короткі)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Подобається AntennaPod?</string>
-  <string name="rating_message">Ми будемо вдячні якщо ви поставите свою оцінку AntennaPod.</string>
+  <string name="rating_title">Подобається CoinPod?</string>
+  <string name="rating_message">Ми будемо вдячні якщо ви поставите свою оцінку CoinPod.</string>
   <string name="rating_never_label">Не зараз</string>
   <string name="rating_later_label">Нагадати згодом</string>
   <string name="rating_now_label">Звичайно, з задоволенням!</string>
@@ -690,12 +690,12 @@
   <string name="subscription_num_columns">Кількість стовпців</string>
   <!--Database import/export-->
   <string name="import_export">Імпортувати/Експортувати базу данних</string>
-  <string name="import_export_warning">Ця експериментальна функція використовується для перенесення ваших підписок та вже прослуханих епізодів до іншого пристрою.\n\nЕкспортована база даних може бути імпортована тією ж самою версією AntennaPod. Інакше, результат може бути непередбаченим.\n\nПісля імпортування, епізоди можуть відображатися як завантажені, навіть якщо вони такими не є.  Просто натисніть кнопку відтворення епізодів, щоб AntennaPod виявив це.</string>
+  <string name="import_export_warning">Ця експериментальна функція використовується для перенесення ваших підписок та вже прослуханих епізодів до іншого пристрою.\n\nЕкспортована база даних може бути імпортована тією ж самою версією CoinPod. Інакше, результат може бути непередбаченим.\n\nПісля імпортування, епізоди можуть відображатися як завантажені, навіть якщо вони такими не є.  Просто натисніть кнопку відтворення епізодів, щоб CoinPod виявив це.</string>
   <string name="label_import">Імпортувати</string>
   <string name="label_export">Експортувати</string>
   <string name="import_select_file">Обрати файл для імпорту</string>
   <string name="export_ok">Успішний експорт</string>
-  <string name="import_ok">Імпорт пройшов успішно.\n\nБудь ласка, натисніть ОК щоб перезапустити AntennaPod</string>
+  <string name="import_ok">Імпорт пройшов успішно.\n\nБудь ласка, натисніть ОК щоб перезапустити CoinPod</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Грати на…</string>
   <string name="cast_disconnect_label">Від’єднатись від пристрою програвання</string>

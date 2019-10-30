@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Atnaujinti prenumeratas</string>
   <string name="feeds_label">Sklaidos kanalai</string>
@@ -231,7 +231,7 @@
   <string name="player_buffering_msg">Buferizuojama</string>
   <string name="player_go_to_picture_in_picture">„Picture-in-picture“ režimas</string>
   <string name="playbackservice_notification_title">Atkuriama tinklalaidė</string>
-  <string name="unknown_media_key">„AntennaPod“ – nežinomas medijos klavišas: %1$d</string>
+  <string name="unknown_media_key">„CoinPod“ – nežinomas medijos klavišas: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Užrakinti eilę</string>
   <string name="unlock_queue">Atrakinti eilę</string>
@@ -255,7 +255,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Atsiųsti įskiepį</string>
   <string name="no_playback_plugin_title">Įskiepis neįdiegtas</string>
-  <string name="no_playback_plugin_or_sonic_msg">Jei norite, jog kintamos atkūrimo spartos funkcija veiktų, patartina įjungti įtaisytąją „Sonic“ medijos leistuvę [„Android“ 4.1+].\n\nKaip pakaitalą, naudodamiesi „Play Store“, galite atsisiųsti trečiųjų šalių įskiepį <i>Prestissimo</i>.\nBet kokie nesklandumai dėl „Prestissimo“ veikimo yra ne „AntennaPod“ atsakomybė, todėl apie juos reikėtų pranešti įskiepio autoriams.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Jei norite, jog kintamos atkūrimo spartos funkcija veiktų, patartina įjungti įtaisytąją „Sonic“ medijos leistuvę [„Android“ 4.1+].\n\nKaip pakaitalą, naudodamiesi „Play Store“, galite atsisiųsti trečiųjų šalių įskiepį <i>Prestissimo</i>.\nBet kokie nesklandumai dėl „Prestissimo“ veikimo yra ne „CoinPod“ atsakomybė, todėl apie juos reikėtų pranešti įskiepio autoriams.</string>
   <string name="set_playback_speed_label">Atkūrimo spartos</string>
   <string name="enable_sonic">Įjungti „Sonic“</string>
   <!--Empty list labels-->
@@ -322,7 +322,7 @@
   <string name="pref_nav_drawer_feed_order_sum">Keiskite prenumeratų tvarką</string>
   <string name="pref_nav_drawer_feed_counter_title">Nustatyti prenumeratų skaitiklį</string>
   <string name="pref_nav_drawer_feed_counter_sum">Keisti prenumeratų skaitiklyje atvaizduojama informaciją. Gali paveikti prenumeratų rikiavimą, jei prenumeratų tvarka nustatyta rikiuoti pagal skaitiklio reikšmę.</string>
-  <string name="pref_set_theme_sum">Keisti AntennaPod išvaizdą.</string>
+  <string name="pref_set_theme_sum">Keisti CoinPod išvaizdą.</string>
   <string name="pref_automatic_download_title">Automatinis atsiuntimas</string>
   <string name="pref_automatic_download_sum">Konfigūruoti automatinį epizodų atsiuntimą.</string>
   <string name="pref_autodl_wifi_filter_title">Įjungti belaidžių tinklų filtrą</string>
@@ -395,7 +395,7 @@
   <string name="pref_no_browser_found">Nerasta jokia interneto naršyklė.</string>
   <string name="pref_cast_title">„Chromecast“ palaikymas</string>
   <string name="pref_cast_message_play_flavor">Įjungti nuotolinio medijos atkūrimo „Cast“ įrenginiuose (pvz. „Chromecast“, garso kolonėlės ar „Android TV“) palaikymą</string>
-  <string name="pref_cast_message_free_flavor">„Chromecast“ palaikymui reikalingos nuosavybinės trečiųjų šalių bibliotekos, kurios yra negalimos šioje „AntennaPod“ versijoje.</string>
+  <string name="pref_cast_message_free_flavor">„Chromecast“ palaikymui reikalingos nuosavybinės trečiųjų šalių bibliotekos, kurios yra negalimos šioje „CoinPod“ versijoje.</string>
   <string name="pref_enqueue_downloaded_title">Atsiuntimus pridėti į eilę</string>
   <string name="pref_enqueue_downloaded_summary">Parsiuntus epizodus, pridėti juos į eilę</string>
   <string name="media_player_builtin">Įtaisytoji „Android“ leistuvė</string>
@@ -410,7 +410,7 @@
   <string name="back_button_open_drawer">Atverti naršymo stalčių</string>
   <string name="back_button_double_tap">Paspaudus dukart - išeiti</string>
   <string name="back_button_show_prompt">Patvirtinti išėjimą</string>
-  <string name="close_prompt">Ar tikrai norite užverti „AntennaPod“?</string>
+  <string name="close_prompt">Ar tikrai norite užverti „CoinPod“?</string>
   <string name="double_tap_toast">Jei norite išeiti, dar kartą paspauskite grįžimo mygtuką</string>
   <string name="back_button_go_to_page">Eiti į puslapį…</string>
   <string name="back_button_go_to_page_title">Pažymėti puslapį</string>
@@ -429,7 +429,7 @@
   <string name="opml_import_option">Parinktis %1$d</string>
   <string name="opml_import_explanation_1">Pasirinkite tikslų kelią iki failo vietinėje failų sistemoje.</string>
   <string name="opml_import_explanation_2">Naudokite išorinę programėlę, pvz. „Dropbox“, „Google Drive“ ar mėgiamą failų tvarkytuvę OPML failui atverti.</string>
-  <string name="opml_import_explanation_3">Dauguma programėlių, pvz. „Google Mail“, „Dropbox“, „Google Drive“ ir dauguma failų tvarkytuvių leidžia <i>atverti</i> OPML failus <i>naudojant</i> „AntennaPod“.</string>
+  <string name="opml_import_explanation_3">Dauguma programėlių, pvz. „Google Mail“, „Dropbox“, „Google Drive“ ir dauguma failų tvarkytuvių leidžia <i>atverti</i> OPML failus <i>naudojant</i> „CoinPod“.</string>
   <string name="start_import_label">Pradėti importą</string>
   <string name="opml_import_label">OPML importas</string>
   <string name="opml_directory_error">KLAIDA!</string>
@@ -504,7 +504,7 @@
   <string name="gpodnetauth_device_caption_errorEmpty">Pavadinimas negali būti tuščias</string>
   <string name="gpodnetauth_device_butChoose">Pasirinkti</string>
   <string name="gpodnetauth_finish_title">Sėkmingai prisijungta!</string>
-  <string name="gpodnetauth_finish_descr">Sveikiname! Jūsų „gpodder.net“ paskyra susieta su šiuo įrenginiu. Nuo šiol „AntennaPod“ automatiškai sinchronizuos prenumeratas šiame įrenginyje su Jūsų „gpodder.net“ paskyra.</string>
+  <string name="gpodnetauth_finish_descr">Sveikiname! Jūsų „gpodder.net“ paskyra susieta su šiuo įrenginiu. Nuo šiol „CoinPod“ automatiškai sinchronizuos prenumeratas šiame įrenginyje su Jūsų „gpodder.net“ paskyra.</string>
   <string name="gpodnetauth_finish_butsyncnow">Pradėti sinchronizavimą dabar</string>
   <string name="gpodnetauth_finish_butgomainscreen">Eiti į pagrindinį ekraną</string>
   <string name="gpodnetsync_auth_error_title">„gpodder.net“ tapatumo nustatymo klaida</string>
@@ -517,7 +517,7 @@
   <string name="selected_folder_label">Pasirinktas aplankas:</string>
   <string name="create_folder_label">Sukurti aplanką</string>
   <string name="choose_data_directory">Pasirinkite duomenų aplanką</string>
-  <string name="choose_data_directory_message">Prašome pasirinkti pamatinį duomenų aplanką. „AntennaPod“ sukurs reikiamus poaplankius.</string>
+  <string name="choose_data_directory_message">Prašome pasirinkti pamatinį duomenų aplanką. „CoinPod“ sukurs reikiamus poaplankius.</string>
   <string name="choose_data_directory_permission_rationale">Norinti pakeisti duomenų aplanką reikalinga prieiga prie išorinės laikmenos</string>
   <string name="create_folder_msg">Sukurti naują aplanką pavadinimu \"%1$s\"?</string>
   <string name="create_folder_success">Sukurtas naujas aplankas</string>
@@ -534,7 +534,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Pristabdyti pertraukus</string>
   <string name="pref_resumeAfterCall_sum">Pratęsti atkūrimą užbaigus pokalbį telefonu</string>
   <string name="pref_resumeAfterCall_title">Pratęsti po skambučio</string>
-  <string name="pref_restart_required">Kad pakeitimas įsigaliotų, reikia paleisti „AntennaPod“ iš naujo.</string>
+  <string name="pref_restart_required">Kad pakeitimas įsigaliotų, reikia paleisti „CoinPod“ iš naujo.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Prenumeruoti</string>
   <string name="subscribed_label">Prenumeruojama</string>
@@ -561,7 +561,7 @@
   <string name="keep_updated">Pastoviai atnaujinti</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Atnaujinama duomenų bazė</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Įkeliamos prenumeratos iš specializuotų programėlių...</string>
   <!--Add podcast fragment-->
   <string name="search_itunes_label">Ieškoti „iTunes“</string>
@@ -594,8 +594,8 @@
   <string name="sort_duration_short_long">Trukmė (Trumpi \u2192 Ilgi)</string>
   <string name="sort_duration_long_short">Trukmė (Ilgi \u2192 Trumpi)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Patinka „AntennaPod“?</string>
-  <string name="rating_message">Būtume dėkingi, jei skirtumėte laiko įvertinti „AntennaPod“.</string>
+  <string name="rating_title">Patinka „CoinPod“?</string>
+  <string name="rating_message">Būtume dėkingi, jei skirtumėte laiko įvertinti „CoinPod“.</string>
   <string name="rating_never_label">Palikite mane ramybėje</string>
   <string name="rating_later_label">Priminti vėliau</string>
   <string name="rating_now_label">Žinoma, padarykime tai!</string>
@@ -625,16 +625,16 @@
   <string name="import_export">Duomenų bazės importas/eksportas</string>
   <string name="import_export_warning">Šis eksperimentinė funkcija leidžia perkelti jūsų prenumeratas bei duomenis apie perklausytus epizodus į kitą įrenginį.
 
-Eksportuota duomenų bazė gali būti importuota tik naudojantis ta pačia „AntennaPod“ versija. Kitu atveju, šios funkcijos naudojimas gali turėti netikėtų padarinių.
+Eksportuota duomenų bazė gali būti importuota tik naudojantis ta pačia „CoinPod“ versija. Kitu atveju, šios funkcijos naudojimas gali turėti netikėtų padarinių.
 
-Po importavimo, epizodai gali būti per klaidą pažymėti kaip atsisiųsti. Tiesiog spustelėkite atkūrimo mygtuką ir „AntennaPod“ aptiks šią klaidą. </string>
+Po importavimo, epizodai gali būti per klaidą pažymėti kaip atsisiųsti. Tiesiog spustelėkite atkūrimo mygtuką ir „CoinPod“ aptiks šią klaidą. </string>
   <string name="label_import">Importuoti</string>
   <string name="label_export">Eksportuoti</string>
   <string name="import_select_file">Pasirinkite failą, kurį norite importuoti</string>
   <string name="export_ok">Sėkmingai eksportuota.</string>
   <string name="import_ok">Importuota sėkmingai.
 
-Spauskite „OK“, kad paleisti „AntennaPod“ iš naujo.</string>
+Spauskite „OK“, kad paleisti „CoinPod“ iš naujo.</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Atkurti naudojant...</string>
   <string name="cast_disconnect_label">Atjungti „Chromecast“ sesiją</string>

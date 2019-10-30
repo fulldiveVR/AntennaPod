@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Atualizar subscrições</string>
   <string name="feeds_label">Fontes</string>
@@ -297,7 +297,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Descarregar extra</string>
   <string name="no_playback_plugin_title">Extra não instalado</string>
-  <string name="no_playback_plugin_or_sonic_msg">Para que a velocidade variável de reprodução funcione, recomendamos que ative o Sonic Media Player incorporado [Android 4.1+].\n\nEm alternativa, pode descarregar o extra <i>Prestissimo</i>, disponível na Google Play.\nQuaisquer problemas que ocorram com o Prestissimo não são da responsabilidade dos programadores do AntennaPod e devem ser reportados ao dono do extra.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Para que a velocidade variável de reprodução funcione, recomendamos que ative o Sonic Media Player incorporado [Android 4.1+].\n\nEm alternativa, pode descarregar o extra <i>Prestissimo</i>, disponível na Google Play.\nQuaisquer problemas que ocorram com o Prestissimo não são da responsabilidade dos programadores do CoinPod e devem ser reportados ao dono do extra.</string>
   <string name="set_playback_speed_label">Velocidades de reprodução</string>
   <string name="enable_sonic">Ativar Sonic</string>
   <!--Empty list labels-->
@@ -392,7 +392,7 @@
   <string name="pref_nav_drawer_feed_order_sum">Alterar a ordem das suas subscrições</string>
   <string name="pref_nav_drawer_feed_counter_title">Definir contador de subscrições</string>
   <string name="pref_nav_drawer_feed_counter_sum">Alterar a informação mostrada no contador de subscrições. Também afeta as subscrições se \'Ordem de subscrição\' estiver definida como \'Contador\'.</string>
-  <string name="pref_set_theme_sum">Alterar a aparência do AntennaPod</string>
+  <string name="pref_set_theme_sum">Alterar a aparência do CoinPod</string>
   <string name="pref_automatic_download_title">Descarga automática</string>
   <string name="pref_automatic_download_sum">Configurar a descarga automática dos episódios</string>
   <string name="pref_autodl_wifi_filter_title">Ativar filtro Wi-Fi</string>
@@ -468,7 +468,7 @@
   <string name="pref_no_browser_found">Navegador web não encontrado</string>
   <string name="pref_cast_title">Suporte Chromecast</string>
   <string name="pref_cast_message_play_flavor">Ativar suporte a reprodução multimédia em dispositivos Cast (tais como Chromecast, Android TV...)</string>
-  <string name="pref_cast_message_free_flavor">O Chromecast necessita de bibliotecas proprietárias de terceiros que estão desativadas nesta versão do AntennaPod</string>
+  <string name="pref_cast_message_free_flavor">O Chromecast necessita de bibliotecas proprietárias de terceiros que estão desativadas nesta versão do CoinPod</string>
   <string name="pref_enqueue_downloaded_title">Colocar descargas na fila</string>
   <string name="pref_enqueue_downloaded_summary">Adicionar à fila os episódios descarregados</string>
   <string name="media_player_builtin">Reprodutor nativo Android</string>
@@ -505,7 +505,7 @@
   <string name="opml_import_option">Opção %1$d</string>
   <string name="opml_import_explanation_1">Escolha um caminho especifico no sistema local de ficheiros</string>
   <string name="opml_import_explanation_2">Utilize aplicações externas como o Dropbox, Google Drive ou o seu gestor de ficheiros preferido para abrir o ficheiro OPML</string>
-  <string name="opml_import_explanation_3">As aplicações como o Google Mail, Dropbox, Google Drive ou gestores de ficheiros podem <i>abrir</i> os ficheiros OPML <i>através</i> do AntennaPod</string>
+  <string name="opml_import_explanation_3">As aplicações como o Google Mail, Dropbox, Google Drive ou gestores de ficheiros podem <i>abrir</i> os ficheiros OPML <i>através</i> do CoinPod</string>
   <string name="start_import_label">Iniciar importação</string>
   <string name="opml_import_label">Importação OPML</string>
   <string name="opml_directory_error">Erro!</string>
@@ -588,7 +588,7 @@
   <string name="selected_folder_label">Diretório escolhido:</string>
   <string name="create_folder_label">Criar pasta</string>
   <string name="choose_data_directory">Escolha a pasta de dados</string>
-  <string name="choose_data_directory_message">Escolha a base da pasta de dados. O AntennaPod irá criar as subpastas apropriadas.</string>
+  <string name="choose_data_directory_message">Escolha a base da pasta de dados. O CoinPod irá criar as subpastas apropriadas.</string>
   <string name="choose_data_directory_permission_rationale">Para alterar a pasta de dados, tem que ter acesso ao armazenamento externo</string>
   <string name="choose_data_directory_available_space">%1$s de %2$s disponível</string>
   <string name="create_folder_msg">Criar uma pasta com o nome \"%1$s\"?</string>
@@ -606,7 +606,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Pausa nas interrupções</string>
   <string name="pref_resumeAfterCall_sum">Continuar reprodução ao terminar a chamada</string>
   <string name="pref_resumeAfterCall_title">Continuar após a chamada</string>
-  <string name="pref_restart_required">Tem que reiniciar o AntennaPod para aplicar as alterações</string>
+  <string name="pref_restart_required">Tem que reiniciar o CoinPod para aplicar as alterações</string>
   <!--Online feed view-->
   <string name="subscribe_label">Subscrever</string>
   <string name="subscribed_label">Subscrito</string>
@@ -632,10 +632,10 @@
   <string name="episode_filters_hint">Uma palavra\n\"Várias palavras\"</string>
   <string name="keep_updated">Manter atualizada</string>
   <string name="keep_updated_summary">Incluir esta fonte ao recarregar automaticamente todas as fontes</string>
-  <string name="auto_download_disabled_globally">A descarga automática está desativada nas definições do AntennaPod</string>
+  <string name="auto_download_disabled_globally">A descarga automática está desativada nas definições do CoinPod</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Atualizando base de dados</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Importar subscrições de aplicações single-purpose...</string>
   <!--Add podcast fragment-->
   <string name="search_podcast_hint">Pesquisar podcast...</string>
@@ -670,8 +670,8 @@
   <string name="sort_duration_short_long">Duração (Curta \u2192 Longa)</string>
   <string name="sort_duration_long_short">Duração (Longa \u2192 Curta)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Gosta do AntennaPod?</string>
-  <string name="rating_message">Gostaríamos que dispensasse algum tempo para avaliar o AntennaPod.</string>
+  <string name="rating_title">Gosta do CoinPod?</string>
+  <string name="rating_message">Gostaríamos que dispensasse algum tempo para avaliar o CoinPod.</string>
   <string name="rating_never_label">Não avaliar</string>
   <string name="rating_later_label">Lembrar mais tarde</string>
   <string name="rating_now_label">Claro, vamos a isso!</string>
@@ -701,12 +701,12 @@
   <string name="subscription_num_columns">Número de colunas</string>
   <!--Database import/export-->
   <string name="import_export">Importação/exportação da base de dados</string>
-  <string name="import_export_warning">Esta função experimental  pode ser usada para transferir as suas subscrições e episódios para outros dispositivos.\n\nAs bases de dados exportadas apenas podem ser importadas se usar a mesma versão do AntennaPod. Caso contrário, esta função poderá produzir efeitos inesperados.\n\nDepois da importação, os episódios poderão ser apresentados como tendo sido descarregados mesmo que não seja verdade. Prima o botão de reprodução dos episódios para que o AntennaPod detete a situação.</string>
+  <string name="import_export_warning">Esta função experimental  pode ser usada para transferir as suas subscrições e episódios para outros dispositivos.\n\nAs bases de dados exportadas apenas podem ser importadas se usar a mesma versão do CoinPod. Caso contrário, esta função poderá produzir efeitos inesperados.\n\nDepois da importação, os episódios poderão ser apresentados como tendo sido descarregados mesmo que não seja verdade. Prima o botão de reprodução dos episódios para que o CoinPod detete a situação.</string>
   <string name="label_import">Importar</string>
   <string name="label_export">Exportar</string>
   <string name="import_select_file">Selecione o ficheiro a importar</string>
   <string name="export_ok">Exportação com sucesso.</string>
-  <string name="import_ok">Importação bem sucedida.\n\nPor favor prima OK para reiniciar o AntennaPod</string>
+  <string name="import_ok">Importação bem sucedida.\n\nPor favor prima OK para reiniciar o CoinPod</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Reproduzir em...</string>
   <string name="cast_disconnect_label">Desligar da última sessão</string>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Opdater abonnementer</string>
   <string name="feeds_label">Feeds</string>
@@ -220,7 +220,7 @@
   <string name="player_buffering_msg">Henter data til buffer</string>
   <string name="player_go_to_picture_in_picture">Billed-i-billed-tilstand</string>
   <string name="playbackservice_notification_title">Afspiller podcast</string>
-  <string name="unknown_media_key">AntennaPod - Ukendt medienøgle: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Ukendt medienøgle: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Lås kø</string>
   <string name="unlock_queue">Lås kø op</string>
@@ -243,7 +243,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Hent plugin</string>
   <string name="no_playback_plugin_title">Plugin er ikke installeret</string>
-  <string name="no_playback_plugin_or_sonic_msg">For at afspilning med variabel hastighed skal fungere, anbefaler vi at slå den indbyggede Sonic-medieafspiller til (Android 4.1+).\n\nAlternativt kan du hente tredjeparts-pluginnet <i>Prestissimo</i> fra Play Store.\nProblemer med Prestissimo er ikke AntennaPods ansvar og skal rapporteres til pluginnets ejer.</string>
+  <string name="no_playback_plugin_or_sonic_msg">For at afspilning med variabel hastighed skal fungere, anbefaler vi at slå den indbyggede Sonic-medieafspiller til (Android 4.1+).\n\nAlternativt kan du hente tredjeparts-pluginnet <i>Prestissimo</i> fra Play Store.\nProblemer med Prestissimo er ikke CoinPods ansvar og skal rapporteres til pluginnets ejer.</string>
   <string name="set_playback_speed_label">Afspilningshastigheder</string>
   <string name="enable_sonic">Slå Sonic til</string>
   <!--Empty list labels-->
@@ -307,7 +307,7 @@
   <string name="pref_nav_drawer_feed_order_title">Vælg abonnementsorden</string>
   <string name="pref_nav_drawer_feed_order_sum">Ændr rækkefølgen af dine abonnementer</string>
   <string name="pref_nav_drawer_feed_counter_title">Indstil abonnementstæller</string>
-  <string name="pref_set_theme_sum">Ændr AntennaPods udseende.</string>
+  <string name="pref_set_theme_sum">Ændr CoinPods udseende.</string>
   <string name="pref_automatic_download_title">Automatisk overførsel</string>
   <string name="pref_automatic_download_sum">Konfigurer automatisk overførsel af udsendelser</string>
   <string name="pref_autodl_wifi_filter_title">Slå wi-fi-filter til</string>
@@ -379,7 +379,7 @@
   <string name="pref_no_browser_found">Ingen webbrowser fundet</string>
   <string name="pref_cast_title">Chromecast-understøttelse</string>
   <string name="pref_cast_message_play_flavor">Aktiver understøttelse af fjernafspilning på Cast-enheder (såsom Chromecast, højttalere med indbygget Chromecast, eller Android TV)</string>
-  <string name="pref_cast_message_free_flavor">Chromecast kræver tredjeparts proprietære biblioteker, som er slået fra i denne version af AntennaPod</string>
+  <string name="pref_cast_message_free_flavor">Chromecast kræver tredjeparts proprietære biblioteker, som er slået fra i denne version af CoinPod</string>
   <string name="pref_enqueue_downloaded_title">Sæt overførte udsendelser i kø</string>
   <string name="pref_enqueue_downloaded_summary">Føj udsendelser til køen, så snart de er overført</string>
   <string name="media_player_builtin">Indbygget Android-afspiller</string>
@@ -411,7 +411,7 @@
   <string name="opml_import_option">Valgmulighed %1$d</string>
   <string name="opml_import_explanation_1">Vælg en bestemt filsti fra det lokale filsystem.</string>
   <string name="opml_import_explanation_2">Brug en ekstern app som Dropbox, Google Drive eller dit foretrukne filhåndteringsprogram til at åbne en OPML-fil.</string>
-  <string name="opml_import_explanation_3">Mange apps som Gmail, Dropbox, Google Drive og de fleste filhåndteringsprogrammer kan <i>åbne</i> OPML-filer <i>med</i> AntennaPod.</string>
+  <string name="opml_import_explanation_3">Mange apps som Gmail, Dropbox, Google Drive og de fleste filhåndteringsprogrammer kan <i>åbne</i> OPML-filer <i>med</i> CoinPod.</string>
   <string name="start_import_label">Start import</string>
   <string name="opml_import_label">OPML-import</string>
   <string name="opml_directory_error">FEJL!</string>
@@ -480,7 +480,7 @@
   <string name="gpodnetauth_device_caption_errorEmpty">Enhedsnavn må ikke være tomt</string>
   <string name="gpodnetauth_device_butChoose">Vælg</string>
   <string name="gpodnetauth_finish_title">Login lykkedes!</string>
-  <string name="gpodnetauth_finish_descr">Tillykke! Din gpodder.net-konto er nu forbundet med din enhed. AntennaPod vil fra nu af automatisk synkronisere dine abonnementer på din enhed med din gpodder.net-konto.</string>
+  <string name="gpodnetauth_finish_descr">Tillykke! Din gpodder.net-konto er nu forbundet med din enhed. CoinPod vil fra nu af automatisk synkronisere dine abonnementer på din enhed med din gpodder.net-konto.</string>
   <string name="gpodnetauth_finish_butsyncnow">Start synkronisering nu</string>
   <string name="gpodnetauth_finish_butgomainscreen">Gå til hovedskærmen</string>
   <string name="gpodnetsync_auth_error_title">gpodder.net-autentificeringfejl</string>
@@ -493,7 +493,7 @@
   <string name="selected_folder_label">Valgt mappe:</string>
   <string name="create_folder_label">Opret mappe</string>
   <string name="choose_data_directory">Vælg datamappe</string>
-  <string name="choose_data_directory_message">Vælg venligst roden af din datamappe. AntennaPod vil oprette passende undermapper.</string>
+  <string name="choose_data_directory_message">Vælg venligst roden af din datamappe. CoinPod vil oprette passende undermapper.</string>
   <string name="choose_data_directory_permission_rationale">Adgang til eksternt lager er kræver for at ændre datamappen</string>
   <string name="create_folder_msg">Opret en ny mappe med navnet \"%1$s\"?</string>
   <string name="create_folder_success">Oprettede ny mappe</string>
@@ -510,7 +510,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Sæt på pause ved afbrydelser</string>
   <string name="pref_resumeAfterCall_sum">Genoptag afspilning når et telefonkald afsluttes</string>
   <string name="pref_resumeAfterCall_title">Genoptag efter opkald</string>
-  <string name="pref_restart_required">AntennaPod skal genstartes for at denne indstilling kan træde i kraft</string>
+  <string name="pref_restart_required">CoinPod skal genstartes for at denne indstilling kan træde i kraft</string>
   <!--Online feed view-->
   <string name="subscribe_label">Abonner</string>
   <string name="subscribed_label">Abonneret</string>
@@ -537,7 +537,7 @@
   <string name="keep_updated">Hold opdateret</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Opgraderer databasen</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Importerer abonnementer fra enkeltformålsapps…</string>
   <!--Add podcast fragment-->
   <string name="search_itunes_label">Søg i iTunes</string>
@@ -570,8 +570,8 @@
   <string name="sort_duration_short_long">Varighed (kort \u2192 lang)</string>
   <string name="sort_duration_long_short">Varighed (lang \u2192 kort)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Kan du lide AntennaPod?</string>
-  <string name="rating_message">Vi vil sætte pris på, hvis du vil bedømme AntennaPod.</string>
+  <string name="rating_title">Kan du lide CoinPod?</string>
+  <string name="rating_message">Vi vil sætte pris på, hvis du vil bedømme CoinPod.</string>
   <string name="rating_never_label">Lad mig være</string>
   <string name="rating_later_label">Påmind mig senere</string>
   <string name="rating_now_label">Klart, lad os gøre det!</string>
@@ -603,7 +603,7 @@
   <string name="label_export">Eksport</string>
   <string name="import_select_file">Vælg fil til import</string>
   <string name="export_ok">Eksport lykkedes.</string>
-  <string name="import_ok">Importen lykkedes.\n\nTryk venligst OK for at genstarte AntennaPod</string>
+  <string name="import_ok">Importen lykkedes.\n\nTryk venligst OK for at genstarte CoinPod</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Afspil på …</string>
   <string name="cast_disconnect_label">Afbryd cast-sessionen</string>

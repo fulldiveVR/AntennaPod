@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Oppdater abonnementer</string>
   <string name="feeds_label">Strømmer</string>
@@ -196,7 +196,7 @@
   <string name="no_media_playing_label">Ingen media spillende for øyeblikket.</string>
   <string name="player_buffering_msg">Bufrer</string>
   <string name="playbackservice_notification_title">Spiller podcast</string>
-  <string name="unknown_media_key">AntennaPod - Ukjent medienøkkel: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Ukjent medienøkkel: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Lås køen</string>
   <string name="unlock_queue">Lås opp køen</string>
@@ -269,7 +269,7 @@
   <string name="pref_nav_drawer_feed_order_title">Velg rekkefølge på abbonement</string>
   <string name="pref_nav_drawer_feed_order_sum">Endre rekkefølgen på abonnementene dine</string>
   <string name="pref_nav_drawer_feed_counter_title">Velg abbonementsteller</string>
-  <string name="pref_set_theme_sum">Endre utseendet til AntennaPod</string>
+  <string name="pref_set_theme_sum">Endre utseendet til CoinPod</string>
   <string name="pref_automatic_download_title">Automatisk nedlasting</string>
   <string name="pref_automatic_download_sum">Konfigurer automatisk nedlasting av episoder.</string>
   <string name="pref_autodl_wifi_filter_title">Skru på Wi-Fi-filter</string>
@@ -337,7 +337,7 @@
   <string name="opml_import_option">Valg %1$d</string>
   <string name="opml_import_explanation_1">Velg en spesifikk filbane fra det lokale filsystemet.</string>
   <string name="opml_import_explanation_2">Bruk en ektern applikasjon som Dropbox, Google Drive eller favoritt-filbehandleren din for å åpne en OPML-fil.</string>
-  <string name="opml_import_explanation_3">Mange applikasjoner som Gmail, Dropbox, Google Drive og de fleste filbehandlere kan <i>åpne</i> OPML-filer <i>med</i> AntennaPod.</string>
+  <string name="opml_import_explanation_3">Mange applikasjoner som Gmail, Dropbox, Google Drive og de fleste filbehandlere kan <i>åpne</i> OPML-filer <i>med</i> CoinPod.</string>
   <string name="start_import_label">Start importering</string>
   <string name="opml_import_label">OPML-import</string>
   <string name="opml_directory_error">FEIL</string>
@@ -404,7 +404,7 @@
   <string name="gpodnetauth_device_caption_errorEmpty">Tittel kan ikke være tom</string>
   <string name="gpodnetauth_device_butChoose">Velg</string>
   <string name="gpodnetauth_finish_title">Innlogging lyktes.</string>
-  <string name="gpodnetauth_finish_descr">Gratulerer! Din gpodder.net konto er nå linket opp med din enhet. AntennaPod vil nå automatisk synkronisere abonnementer på din enhet med din gpodder.net konto.</string>
+  <string name="gpodnetauth_finish_descr">Gratulerer! Din gpodder.net konto er nå linket opp med din enhet. CoinPod vil nå automatisk synkronisere abonnementer på din enhet med din gpodder.net konto.</string>
   <string name="gpodnetauth_finish_butsyncnow">Start synkronisering nå.</string>
   <string name="gpodnetauth_finish_butgomainscreen">Gå til hovedskjermen</string>
   <string name="gpodnetsync_auth_error_title">gpodder.net-autentiseringsfeil</string>
@@ -417,7 +417,7 @@
   <string name="selected_folder_label">Valgt mappe</string>
   <string name="create_folder_label">Lag mappe</string>
   <string name="choose_data_directory">Velg datamappe</string>
-  <string name="choose_data_directory_message">Vennligst velg basisen for datamappen din. AntennaPod vil lage de nødvendige submappene dine.</string>
+  <string name="choose_data_directory_message">Vennligst velg basisen for datamappen din. CoinPod vil lage de nødvendige submappene dine.</string>
   <string name="choose_data_directory_permission_rationale">Tilgang til ekstern lagring er nødvendig for å endre data mappe</string>
   <string name="create_folder_msg">Lag en ny mappe med navn \"%1$s\"?</string>
   <string name="create_folder_success">Lagde en ny mappe</string>
@@ -434,7 +434,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Pause for avbrytelser</string>
   <string name="pref_resumeAfterCall_sum">Gjenoppta avspilling etter at telefonsamtaler avsluttes</string>
   <string name="pref_resumeAfterCall_title">Gjenoppta etter samtale</string>
-  <string name="pref_restart_required">AntennaPod må startes om for at denne endringen skal lagres.</string>
+  <string name="pref_restart_required">CoinPod må startes om for at denne endringen skal lagres.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Abonner</string>
   <string name="subscribed_label">Abonnert</string>
@@ -459,7 +459,7 @@
   <string name="keep_updated">Hold oppdatert</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Oppgraderer databasen</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Importerer abbonementer fra enkeltstående applikasjoner ...</string>
   <!--Add podcast fragment-->
   <string name="search_itunes_label">Søk på iTunes</string>
@@ -488,8 +488,8 @@
   <string name="sort_duration_short_long">Lengde (Kort \u2192 Lang)</string>
   <string name="sort_duration_long_short">Lengde (Lang \u2192 Kort)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Liker du AntennaPod?</string>
-  <string name="rating_message">Vi ville satt pris på om du tok deg tid til å vurdere AntennaPod.</string>
+  <string name="rating_title">Liker du CoinPod?</string>
+  <string name="rating_message">Vi ville satt pris på om du tok deg tid til å vurdere CoinPod.</string>
   <string name="rating_never_label">La meg være i fred</string>
   <string name="rating_later_label">Minn meg på dette senere</string>
   <string name="rating_now_label">Naturligvis, kom igjen!</string>

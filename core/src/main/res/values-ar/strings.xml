@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">تحديث التسجيل</string>
   <string name="feeds_label">مغذيات</string>
@@ -170,7 +170,7 @@
   <!--Feed information screen-->
   <string name="authentication_label">تسجيل الدخول</string>
   <!--Progress information-->
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <!--Episodes apply actions-->
   <string name="all_label">الكل</string>
   <string name="selected_all_label">إختيار كل الحلقات</string>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Actualitzar subscripcions</string>
   <string name="feeds_label">Canals</string>
@@ -225,7 +225,7 @@
   <string name="player_buffering_msg">S\'està carregant</string>
   <string name="player_go_to_picture_in_picture">Mode Picture-in-picture</string>
   <string name="playbackservice_notification_title">Podcast en reproducció</string>
-  <string name="unknown_media_key">AntennaPod - Control desconegut: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Control desconegut: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Bloqueja la cua</string>
   <string name="unlock_queue">Desbloqueja la cua</string>
@@ -249,7 +249,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Baixa el connector</string>
   <string name="no_playback_plugin_title">Connector no instal·lat</string>
-  <string name="no_playback_plugin_or_sonic_msg">Per a què funcioni la velocitat de reproducció variable, recomanem activar el Sonic Media Player integrat [Android 4.1+].\n\nAltra opció és baixar el connector de tercers <i>Prestissimo</i> de la Play Store.\nQualsevol problema amb Prestissimo no és responsabilitat d\'AntennaPod i haurà d\'informar-ne al seu propietari.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Per a què funcioni la velocitat de reproducció variable, recomanem activar el Sonic Media Player integrat [Android 4.1+].\n\nAltra opció és baixar el connector de tercers <i>Prestissimo</i> de la Play Store.\nQualsevol problema amb Prestissimo no és responsabilitat d\'CoinPod i haurà d\'informar-ne al seu propietari.</string>
   <string name="set_playback_speed_label">Velocitats de reproducció</string>
   <string name="enable_sonic">Activa Sonic</string>
   <!--Empty list labels-->
@@ -315,7 +315,7 @@
   <string name="pref_nav_drawer_feed_order_sum">Canvia l\'ordre de les subscripcions</string>
   <string name="pref_nav_drawer_feed_counter_title">Estableix el comptador de les subscripcions</string>
   <string name="pref_nav_drawer_feed_counter_sum">Canvia la informació mostrada pel comptador de les subscripcions. També afecta l\'ordre de les subscripcions si a l\'opció \'Ordre de les subscripcions\' s\'ha indicat \'Comptador\'.</string>
-  <string name="pref_set_theme_sum">Canvieu l\'aparença d\'AntennaPod.</string>
+  <string name="pref_set_theme_sum">Canvieu l\'aparença d\'CoinPod.</string>
   <string name="pref_automatic_download_title">Baixada automàtica</string>
   <string name="pref_automatic_download_sum">Configureu la baixada automàtica d\'episodis.</string>
   <string name="pref_autodl_wifi_filter_title">Activa el filtre de la xarxa sense fils</string>
@@ -386,7 +386,7 @@
   <string name="pref_no_browser_found">No s\'ha trobat cap navegador web.</string>
   <string name="pref_cast_title">Suport per a Chromecast</string>
   <string name="pref_cast_message_play_flavor">Habilita el suport per la reproducció remota en dispositius de difusió (com ara Chromecast, Audio Speakers o Android TV). </string>
-  <string name="pref_cast_message_free_flavor">Chromecast requereix de llibreries propietàries de terceres parts que estan inhabilitades en aquesta versió d\'AntennaPod</string>
+  <string name="pref_cast_message_free_flavor">Chromecast requereix de llibreries propietàries de terceres parts que estan inhabilitades en aquesta versió d\'CoinPod</string>
   <string name="pref_enqueue_downloaded_title">Afegeix les baixades a la cua</string>
   <string name="pref_enqueue_downloaded_summary">Afegeix els episodis descarregats a la cua</string>
   <string name="media_player_builtin">Reproductor Android estàndard</string>
@@ -409,7 +409,7 @@
   <string name="opml_import_option">Opció %1$d</string>
   <string name="opml_import_explanation_1">Tria una ruta de fitxer específic del sistema de fitxers local.</string>
   <string name="opml_import_explanation_2">Utilitza una aplicació externa com Dropbox, Google Drive o el seu gestor de fitxers preferit per obrir un fitxer OPML.</string>
-  <string name="opml_import_explanation_3">Algunes aplicacions com Google Mail, Dropbox, Google Drive i la majoria dels administradors d\'arxius pot <i>obrir</i> arxius OPML <i>amb</i> AntennaPod.</string>
+  <string name="opml_import_explanation_3">Algunes aplicacions com Google Mail, Dropbox, Google Drive i la majoria dels administradors d\'arxius pot <i>obrir</i> arxius OPML <i>amb</i> CoinPod.</string>
   <string name="start_import_label">Inicia la importació</string>
   <string name="opml_import_label">Importació d\'OPML</string>
   <string name="opml_directory_error">Error!</string>
@@ -478,7 +478,7 @@
   <string name="gpodnetauth_device_caption_errorEmpty">El títol no pot estar buit </string>
   <string name="gpodnetauth_device_butChoose">Selecciona</string>
   <string name="gpodnetauth_finish_title">Heu iniciat la sessió!</string>
-  <string name="gpodnetauth_finish_descr">Felicitats! El vostre compte de gpodder.net s\'ha enllaçat amb el dispositiu. D\'ara endavant, AntennaPod sincronitzarà automàticament les subscripcions del dispositiu al vostre compte.</string>
+  <string name="gpodnetauth_finish_descr">Felicitats! El vostre compte de gpodder.net s\'ha enllaçat amb el dispositiu. D\'ara endavant, CoinPod sincronitzarà automàticament les subscripcions del dispositiu al vostre compte.</string>
   <string name="gpodnetauth_finish_butsyncnow">Sincronitza ara</string>
   <string name="gpodnetauth_finish_butgomainscreen">Vés a la pantalla principal</string>
   <string name="gpodnetsync_auth_error_title">Error d\'autenticació a gpodder.net</string>
@@ -491,7 +491,7 @@
   <string name="selected_folder_label">Carpeta seleccionada:</string>
   <string name="create_folder_label">Crea una carpeta</string>
   <string name="choose_data_directory">Selecció de la carpeta de dades</string>
-  <string name="choose_data_directory_message">Selecciona l\'arrel del teu directori d\'informació. AntennaPod crearà els subdirectoris pertinents</string>
+  <string name="choose_data_directory_message">Selecciona l\'arrel del teu directori d\'informació. CoinPod crearà els subdirectoris pertinents</string>
   <string name="choose_data_directory_permission_rationale">Es requereix accés a l\'emmagatzematge extern per canviar el directori d\'informació</string>
   <string name="create_folder_msg">Voleu crear una nova carpeta amb el nom \"%1$s\"?</string>
   <string name="create_folder_success">S\'ha creat la nova carpeta</string>
@@ -508,7 +508,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Pausa en interrompre</string>
   <string name="pref_resumeAfterCall_sum">Reprén la reproducció després d\'una trucada telefònica</string>
   <string name="pref_resumeAfterCall_title">Reprén després d\'una trucada</string>
-  <string name="pref_restart_required">AntennaPod s\'ha de reiniciar perquè aquest canvi tingui efecte.</string>
+  <string name="pref_restart_required">CoinPod s\'ha de reiniciar perquè aquest canvi tingui efecte.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Subscriu</string>
   <string name="subscribed_label">Subscrit</string>
@@ -535,7 +535,7 @@
   <string name="keep_updated">Manté actualitzat</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Actualitzant la base de dades</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">S\'estan important les subscripcions des de les apps de propòsit únic...</string>
   <!--Add podcast fragment-->
   <string name="search_itunes_label">Cerca a iTunes</string>
@@ -568,8 +568,8 @@
   <string name="sort_duration_short_long">Duració (Curt \u2192 Llarg)</string>
   <string name="sort_duration_long_short">Duration (Llarg \u2192 Curt)</string>
   <!--Rating dialog-->
-  <string name="rating_title">T\'agrada AntennaPod?</string>
-  <string name="rating_message">Apreciaríem que et prenguessis un temps per valorar AntennaPod</string>
+  <string name="rating_title">T\'agrada CoinPod?</string>
+  <string name="rating_message">Apreciaríem que et prenguessis un temps per valorar CoinPod</string>
   <string name="rating_never_label">Deixa\'m tranquil</string>
   <string name="rating_later_label">Pregunta\'m més tard</string>
   <string name="rating_now_label">I tant, fem-ho!</string>
@@ -597,12 +597,12 @@
   <!--Subscriptions fragment-->
   <!--Database import/export-->
   <string name="import_export">Importa/exporta la base de dades</string>
-  <string name="import_export_warning">Podeu fer servir aquesta funcionalitat experimental per a transferir les vostres subscripcions i episodis reproduïts a un altre dispositiu.\n\nNomés podreu importar la base de dades fent servir la mateixa versió de l\'AntennaPod. En cas contrari, aquesta funcionalitat es comportarà de forma imprevisible.\n\nDesprés d\'importar-los, els episodis es poden mostrar com a baixats tot i no estar disponibles. Premeu el botó per a reproduir-los per a que l\'AntennaPod ho detecti.</string>
+  <string name="import_export_warning">Podeu fer servir aquesta funcionalitat experimental per a transferir les vostres subscripcions i episodis reproduïts a un altre dispositiu.\n\nNomés podreu importar la base de dades fent servir la mateixa versió de l\'CoinPod. En cas contrari, aquesta funcionalitat es comportarà de forma imprevisible.\n\nDesprés d\'importar-los, els episodis es poden mostrar com a baixats tot i no estar disponibles. Premeu el botó per a reproduir-los per a que l\'CoinPod ho detecti.</string>
   <string name="label_import">Importa</string>
   <string name="label_export">Exporta</string>
   <string name="import_select_file">Tria un fitxer per a importar</string>
   <string name="export_ok">Exportació correcta.</string>
-  <string name="import_ok">S\'ha importat amb èxit.\n\nPremeu D\'acord per a reiniciar l\'AntennaPod.</string>
+  <string name="import_ok">S\'ha importat amb èxit.\n\nPremeu D\'acord per a reiniciar l\'CoinPod.</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Reproduir a...</string>
   <string name="cast_disconnect_label">Desconnectar la sessió de difusió </string>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Päivitä tilaukset</string>
   <string name="feeds_label">Syötteet</string>
@@ -265,7 +265,7 @@
   <string name="player_buffering_msg">Bufferoi</string>
   <string name="player_go_to_picture_in_picture">Kuva-kuvassa-tila</string>
   <string name="playbackservice_notification_title">Soittaa podcastia</string>
-  <string name="unknown_media_key">AntennaPod - Tuntematon media avain: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Tuntematon media avain: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Lukitse jono</string>
   <string name="unlock_queue">Avaa jono</string>
@@ -291,7 +291,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Lataa plugin</string>
   <string name="no_playback_plugin_title">Plugin ei asennettu</string>
-  <string name="no_playback_plugin_or_sonic_msg">Muuttuvan soittonopeuden toiminnassa suosittelemme sisäänrakennettua Sonic mediaplayer [Android 4.1+].\n\nVaihtoehtoisesti voit ladata kolmannen osapuolen pluginin <i>Prestissimo</i> Play Storesta.\nOngelmat Prestissimossa eivät ole AntennaPod vastuulla ja tulisi raportoida pluginin tekijöille.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Muuttuvan soittonopeuden toiminnassa suosittelemme sisäänrakennettua Sonic mediaplayer [Android 4.1+].\n\nVaihtoehtoisesti voit ladata kolmannen osapuolen pluginin <i>Prestissimo</i> Play Storesta.\nOngelmat Prestissimossa eivät ole CoinPod vastuulla ja tulisi raportoida pluginin tekijöille.</string>
   <string name="set_playback_speed_label">Soittonopeudet</string>
   <string name="enable_sonic">Aloita Sonic</string>
   <!--Empty list labels-->
@@ -377,7 +377,7 @@
   <string name="pref_nav_drawer_feed_order_sum">Vaihda tilauksiesi järjestystä</string>
   <string name="pref_nav_drawer_feed_counter_title">Aseta tilauksien laskuri</string>
   <string name="pref_nav_drawer_feed_counter_sum">Vaihta tilauksien laskurin näyttämää informaatiota. Tämä vaikuttaa tilauksien järjestykseen jos \"Tilausjärjestys\" on asetettu \"Laskuri\".</string>
-  <string name="pref_set_theme_sum">Vaihda AntennaPodin näkymää</string>
+  <string name="pref_set_theme_sum">Vaihda CoinPodin näkymää</string>
   <string name="pref_automatic_download_title">Automaattinen lataus</string>
   <string name="pref_automatic_download_sum">Aseta jaksojen automaattinen lataus</string>
   <string name="pref_autodl_wifi_filter_title">Aseta Wi-Fi filtteri</string>
@@ -453,7 +453,7 @@
   <string name="pref_no_browser_found">Selainta ei löydetty</string>
   <string name="pref_cast_title">Chromecast-tuki</string>
   <string name="pref_cast_message_play_flavor">Aseta ulkoisten mediaohjelmien soitto Cast laitteilla (kuten Chromecast, Audio Speakers tai Android TV)</string>
-  <string name="pref_cast_message_free_flavor">Chromecast tarvitsee kolmannen osapuolen suljettuja kirjastoja, jotka on poistettu tässä AntennaPodissa.</string>
+  <string name="pref_cast_message_free_flavor">Chromecast tarvitsee kolmannen osapuolen suljettuja kirjastoja, jotka on poistettu tässä CoinPodissa.</string>
   <string name="pref_enqueue_downloaded_title">Lisää ladatut jonoon</string>
   <string name="pref_enqueue_downloaded_summary">Lisää ladatut jaksot jonoon</string>
   <string name="media_player_builtin">Sisäänrakennettu Android-soitto</string>
@@ -469,7 +469,7 @@
   <string name="back_button_open_drawer">Avaa navigaatiohylly</string>
   <string name="back_button_double_tap">Tuplanaputa sulkemiseen</string>
   <string name="back_button_show_prompt">Varmista poistuminen</string>
-  <string name="close_prompt">Haluatko varmasti sulkea AntennaPodin?</string>
+  <string name="close_prompt">Haluatko varmasti sulkea CoinPodin?</string>
   <string name="double_tap_toast">Napauta Takaisin nappia sulkemiseen</string>
   <string name="back_button_go_to_page">Mene sivulle...</string>
   <string name="back_button_go_to_page_title">Valitse sivu</string>
@@ -490,7 +490,7 @@
   <string name="opml_import_option">Valinta %1$d</string>
   <string name="opml_import_explanation_1">Valitse täydellinen tiedostopolku tietojärjestelmästä</string>
   <string name="opml_import_explanation_2">Käytä ulkopuolisia sovelluksia kuten Dropbox, Google Drive tai suosikki tiedostomanageria OPML tiedoston avaamiseen.</string>
-  <string name="opml_import_explanation_3">Monet sovellukset kuten Google Mail, Dropbox, Google Drive ja useimmat tiedostomanagerit <i>avaavat</i> OPML tiedostoja <i>kanssa</i> AntennaPodiin.</string>
+  <string name="opml_import_explanation_3">Monet sovellukset kuten Google Mail, Dropbox, Google Drive ja useimmat tiedostomanagerit <i>avaavat</i> OPML tiedostoja <i>kanssa</i> CoinPodiin.</string>
   <string name="start_import_label">Aloita tuonti</string>
   <string name="opml_import_label">OPML tuonti</string>
   <string name="opml_directory_error">VIRHE!</string>
@@ -559,7 +559,7 @@
   <string name="gpodnetauth_device_caption_errorEmpty">Kuvaus ei saa olla tyhjä</string>
   <string name="gpodnetauth_device_butChoose">Valitse</string>
   <string name="gpodnetauth_finish_title">Sisäänkirjautuminen onnistui</string>
-  <string name="gpodnetauth_finish_descr">Onneksi olkoon! Sinun gpodder.net tili on liitetty laitteeseesi. AntennaPod alkaa automaattisesti synkronoimaan gpodder.net tiliisi.</string>
+  <string name="gpodnetauth_finish_descr">Onneksi olkoon! Sinun gpodder.net tili on liitetty laitteeseesi. CoinPod alkaa automaattisesti synkronoimaan gpodder.net tiliisi.</string>
   <string name="gpodnetauth_finish_butsyncnow">Aloita synkrointi nyt</string>
   <string name="gpodnetauth_finish_butgomainscreen">Mene pääsivulle</string>
   <string name="gpodnetsync_auth_error_title">gpodder.net autentikaatiovirhe</string>
@@ -573,7 +573,7 @@
   <string name="selected_folder_label">Valittu hakemisto:</string>
   <string name="create_folder_label">Luo hakemisto</string>
   <string name="choose_data_directory">Valitse datahakemisto</string>
-  <string name="choose_data_directory_message">Valitse datahakemiston juuri. AntennaPod luo tarvittavat alihakemistot</string>
+  <string name="choose_data_directory_message">Valitse datahakemiston juuri. CoinPod luo tarvittavat alihakemistot</string>
   <string name="choose_data_directory_permission_rationale">Pääsy ulkoiseen solvellukseen tarvitaan datahakemiston muuttamiseen</string>
   <string name="choose_data_directory_available_space">%1$s / %2$s vapaana</string>
   <string name="create_folder_msg">Luo uusi hakemisto \"%1$s\"?</string>
@@ -591,7 +591,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Pysäytä keskeytyksiin</string>
   <string name="pref_resumeAfterCall_sum">Jatka soittoa kun puhelinkeskustelu päättyy</string>
   <string name="pref_resumeAfterCall_title">Jatka puhelinsoiton jälkeen</string>
-  <string name="pref_restart_required">AntennaPod täytyy uudelleenkäynnistää tämän asetuksen voimaantuloon.</string>
+  <string name="pref_restart_required">CoinPod täytyy uudelleenkäynnistää tämän asetuksen voimaantuloon.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Tilaa</string>
   <string name="subscribed_label">Tilattu</string>
@@ -617,10 +617,10 @@
   <string name="episode_filters_hint">Yksittäiset sanat \n\"Monta sanaa\"</string>
   <string name="keep_updated">Pidä päivitettynä</string>
   <string name="keep_updated_summary">Tämä syöte mukaan kun (auto-) päivität kaikki syötteet</string>
-  <string name="auto_download_disabled_globally">Automaattinen lataaminen on pysäytetty AntennaPodin asetuksissa</string>
+  <string name="auto_download_disabled_globally">Automaattinen lataaminen on pysäytetty CoinPodin asetuksissa</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Päivitetään tietokantaa</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Tuodaan tilauksia sovelluksista</string>
   <!--Add podcast fragment-->
   <string name="search_podcast_hint">Etsi podcastia...</string>
@@ -655,8 +655,8 @@
   <string name="sort_duration_short_long">Kesto (Lyhyt \u2192 Long)</string>
   <string name="sort_duration_long_short">Kesto (Pitkä \u2192 Short)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Tykkää AntennaPod?</string>
-  <string name="rating_message">Olisimme kiitollisia jos käytä aikaa AntennaPodin arvosteluun.</string>
+  <string name="rating_title">Tykkää CoinPod?</string>
+  <string name="rating_message">Olisimme kiitollisia jos käytä aikaa CoinPodin arvosteluun.</string>
   <string name="rating_never_label">Jätä minut rauhaan</string>
   <string name="rating_later_label">Muistuta minua myöhemmin</string>
   <string name="rating_now_label">Miksei, tehdään tämä!</string>
@@ -686,12 +686,12 @@
   <string name="subscription_num_columns">Sarakkeiden määrä</string>
   <!--Database import/export-->
   <string name="import_export">Tietokannan tuonti/vienti</string>
-  <string name="import_export_warning">Tämä kokeellinen toiminto voi siirtää tilauksesi ja soitetut jaksot toiseen laitteeseen.\n\nViedyt tietokannat voidaan tuoda ainoastaan samaan versioon AntennaPodista. Muuten toiminto voi johtaa odottamattoman käyttäytymiseen.\n\nTuonnin jälkeen jaksot saattavat näkyä ladattuna vaikka niitä ei ole ladattu. Paina soittonappia, jotta AntennaPod tunnistaa tämän.</string>
+  <string name="import_export_warning">Tämä kokeellinen toiminto voi siirtää tilauksesi ja soitetut jaksot toiseen laitteeseen.\n\nViedyt tietokannat voidaan tuoda ainoastaan samaan versioon CoinPodista. Muuten toiminto voi johtaa odottamattoman käyttäytymiseen.\n\nTuonnin jälkeen jaksot saattavat näkyä ladattuna vaikka niitä ei ole ladattu. Paina soittonappia, jotta CoinPod tunnistaa tämän.</string>
   <string name="label_import">Tuonti</string>
   <string name="label_export">Vienti</string>
   <string name="import_select_file">Valitse tiedosto tuontiin</string>
   <string name="export_ok">Vienti onnistui.</string>
-  <string name="import_ok">Tuonti onnistui.\n\nPaina OK uudelleenkäynnistääksesi AntennaPod</string>
+  <string name="import_ok">Tuonti onnistui.\n\nPaina OK uudelleenkäynnistääksesi CoinPod</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Soita...</string>
   <string name="cast_disconnect_label">Irrota cast sessio</string>

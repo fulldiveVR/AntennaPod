@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Abonelikleri güncelle</string>
   <string name="feeds_label">Beslemeler</string>
@@ -222,7 +222,7 @@
   <string name="player_buffering_msg">Ara belleğe alınıyor</string>
   <string name="player_go_to_picture_in_picture">Resim içinde Resim modu</string>
   <string name="playbackservice_notification_title">Cep yayını çalınıyor</string>
-  <string name="unknown_media_key">AntennaPod - Bilinmeyen medya anahtarı: %1$d</string>
+  <string name="unknown_media_key">CoinPod - Bilinmeyen medya anahtarı: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Kuyruğu kilitle</string>
   <string name="unlock_queue">Kuyruğun kilidini aç</string>
@@ -246,7 +246,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Eklentiyi İndir</string>
   <string name="no_playback_plugin_title">Eklenti Yüklenmedi</string>
-  <string name="no_playback_plugin_or_sonic_msg">Değişken hızlı oynatmanın çalışması için, dahili Sonic mediaplayer tavsiye ediyoruz [Android 4.1+].\n\nAlternatif olarak, üçüncü parti <i>Prestissimo</i>eklentisini Play Store\'dan indirebilirsiniz.\nPrestissimo ilgili herhangi bir sorunda AntennaPod sorumlu değildir, sorun eklenti yazarına bildirilmelidir.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Değişken hızlı oynatmanın çalışması için, dahili Sonic mediaplayer tavsiye ediyoruz [Android 4.1+].\n\nAlternatif olarak, üçüncü parti <i>Prestissimo</i>eklentisini Play Store\'dan indirebilirsiniz.\nPrestissimo ilgili herhangi bir sorunda CoinPod sorumlu değildir, sorun eklenti yazarına bildirilmelidir.</string>
   <string name="set_playback_speed_label">Çalma hızları</string>
   <string name="enable_sonic">Sonic\'i Etkinleştir</string>
   <!--Empty list labels-->
@@ -312,7 +312,7 @@
   <string name="pref_nav_drawer_feed_order_title">Abonelik sıralamasını ayarla</string>
   <string name="pref_nav_drawer_feed_order_sum">Abonelik sırasını değiştir</string>
   <string name="pref_nav_drawer_feed_counter_title">Abonelik sayacını ayarla</string>
-  <string name="pref_set_theme_sum">AntennaPod\'un görüntüsünü değiştir.</string>
+  <string name="pref_set_theme_sum">CoinPod\'un görüntüsünü değiştir.</string>
   <string name="pref_automatic_download_title">Otomatk indirme</string>
   <string name="pref_automatic_download_sum">Bölümlerin otomatik indirilmesini yapılandır.</string>
   <string name="pref_autodl_wifi_filter_title">Wi-Fi filtresini etkinleştir</string>
@@ -362,7 +362,7 @@
   <string name="opml_import_option">Seçenek %1$d</string>
   <string name="opml_import_explanation_1">Yerel dosya sisteminden belirli bir yol seçin.</string>
   <string name="opml_import_explanation_2">OPML dosyasını açmak için harici uygulamalardan Dropbox, Google Drive veya kendi favori dosya yöneticinizi kullanın.</string>
-  <string name="opml_import_explanation_3">Google Mail, Dropbox, Google Drive gibi birçok uygulama ve çoğu dosya yöneticisi OPML dosyalarını AntennaPod <i>ile</i> <i>açabilir.</i></string>
+  <string name="opml_import_explanation_3">Google Mail, Dropbox, Google Drive gibi birçok uygulama ve çoğu dosya yöneticisi OPML dosyalarını CoinPod <i>ile</i> <i>açabilir.</i></string>
   <string name="start_import_label">İçe aktarmayı başlat</string>
   <string name="opml_import_label">OPML içe aktar</string>
   <string name="opml_directory_error">HATA!</string>
@@ -420,7 +420,7 @@
   <string name="gpodnetauth_device_errorAlreadyUsed">Cihaz ID\'si zaten var</string>
   <string name="gpodnetauth_device_butChoose">Seç</string>
   <string name="gpodnetauth_finish_title">Giriş başarılı</string>
-  <string name="gpodnetauth_finish_descr">Tebrikler! gpodder.net hesabınız cihazınızla ilişkilendirildi. AntennaPod bundan sonra gpodder.net hesabınızla üyeliklerinizi otomatik olarak senkronize edecek.</string>
+  <string name="gpodnetauth_finish_descr">Tebrikler! gpodder.net hesabınız cihazınızla ilişkilendirildi. CoinPod bundan sonra gpodder.net hesabınızla üyeliklerinizi otomatik olarak senkronize edecek.</string>
   <string name="gpodnetauth_finish_butsyncnow">Senkronizasyonu başlat</string>
   <string name="gpodnetauth_finish_butgomainscreen">Ana ekrana git</string>
   <string name="gpodnetsync_auth_error_title">gpodder.net yetkilendirme hatası</string>
@@ -431,7 +431,7 @@
   <string name="selected_folder_label">Seçilen dizin:</string>
   <string name="create_folder_label">Dizin yarat</string>
   <string name="choose_data_directory">Veri dizinini seç</string>
-  <string name="choose_data_directory_message">Lütfen verileriniz için ana klasörü seçin. AntennaPod gerekli alt-klasörleri oluşturacaktır.</string>
+  <string name="choose_data_directory_message">Lütfen verileriniz için ana klasörü seçin. CoinPod gerekli alt-klasörleri oluşturacaktır.</string>
   <string name="create_folder_msg">\"%1$s\" isminde yeni dizin oluştur?</string>
   <string name="create_folder_success">Yeni dizin yaratıldı</string>
   <string name="create_folder_error_no_write_access">Bu dizine yazılamadı</string>
@@ -447,7 +447,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Kesintiler için duraklat</string>
   <string name="pref_resumeAfterCall_sum">Bir telefon konuşması tamamlandıktan sonra çalmaya kaldığı yerden devam et</string>
   <string name="pref_resumeAfterCall_title">Konuşmadan sonra devam et</string>
-  <string name="pref_restart_required">Bu değişikliğin geçerli olması için AntennaPod yeniden başlatılmalıdır.</string>
+  <string name="pref_restart_required">Bu değişikliğin geçerli olması için CoinPod yeniden başlatılmalıdır.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Üye ol</string>
   <string name="subscribed_label">Üye olundu</string>
@@ -468,7 +468,7 @@
   <string name="auto_download_settings_label">Otomatik İndirme Seçenekleri</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Veritabanı yükseltiliyor</string>
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <string name="sp_apps_importing_feeds_msg">Üyelikler tek-amaçlı uygulamalardan içe aktarılıyor...</string>
   <!--Add podcast fragment-->
   <string name="search_itunes_label">iTunes\'da Arama</string>
@@ -493,8 +493,8 @@
   <string name="sort_duration_short_long">Süre (Kısa \u2192 Uzun)</string>
   <string name="sort_duration_long_short">Süre (Uzun \u2192 Kısa)</string>
   <!--Rating dialog-->
-  <string name="rating_title">AntennaPod\'u beğendiniz mi?</string>
-  <string name="rating_message">Eğer AntennaPod\'a oy vermek için biraz zamanını ayırırsanız memnun oluruz.</string>
+  <string name="rating_title">CoinPod\'u beğendiniz mi?</string>
+  <string name="rating_message">Eğer CoinPod\'a oy vermek için biraz zamanını ayırırsanız memnun oluruz.</string>
   <string name="rating_never_label">Bir daha gösterme</string>
   <string name="rating_later_label">Daha sonra hatırlat</string>
   <string name="rating_now_label">Evet, şimdi yapalım!</string>

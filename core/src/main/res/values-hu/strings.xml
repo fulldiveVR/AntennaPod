@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feed_update_receiver_name">Feliratkozások frissítése</string>
   <string name="feeds_label">Idővonalak</string>
@@ -285,7 +285,7 @@
   <string name="pref_nav_drawer_title">Navigációs fiók testreszabása</string>
   <string name="pref_nav_drawer_sum">Navigációs fiók kinézetének testreszabás</string>
   <string name="pref_nav_drawer_items_title">Navigációs fiók elemeinek kiválasztása</string>
-  <string name="pref_set_theme_sum">AntennaPod kinézetének megváltoztatása</string>
+  <string name="pref_set_theme_sum">CoinPod kinézetének megváltoztatása</string>
   <string name="pref_automatic_download_title">Automatikus letöltés</string>
   <string name="pref_automatic_download_sum">Epizódok automatikus letöltésének beállítása</string>
   <string name="pref_autodl_wifi_filter_title">Wi-Fi szűrő beállítása</string>
@@ -356,7 +356,7 @@
   <string name="load_next_page_label">Következő oldal betöltése</string>
   <!--Feed information screen-->
   <!--Progress information-->
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <!--Add podcast fragment-->
   <string name="search_itunes_label">iTunes keresés</string>
   <string name="search_fyyd_label">fyyd keresés</string>

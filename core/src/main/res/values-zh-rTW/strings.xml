@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
   <!--Activitiy and fragment titles-->
   <string name="feeds_label">源</string>
   <string name="statistics_label">統計</string>
@@ -204,7 +204,7 @@
   <string name="no_media_playing_label">播放完畢</string>
   <string name="player_buffering_msg">緩衝中</string>
   <string name="playbackservice_notification_title">播客播放中</string>
-  <string name="unknown_media_key">AntennaPod - 未知媒體鍵: %1$d</string>
+  <string name="unknown_media_key">CoinPod - 未知媒體鍵: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">鎖定隊列</string>
   <string name="unlock_queue">解鎖隊列</string>
@@ -224,18 +224,18 @@
   <string name="clear_queue_confirmation_msg">請確認您要清除隊列以及其中所有的劇集</string>
   <!--Flattr-->
   <string name="flattr_auth_label">Flattr 登錄</string>
-  <string name="flattr_auth_explanation">輕按下方按鈕開始授權流程。您將會在瀏覽器打開flattr的登錄頁並被要求授予AntennaPod關於flattr的權限。完成授權後，您將會自動回到本頁面。</string>
+  <string name="flattr_auth_explanation">輕按下方按鈕開始授權流程。您將會在瀏覽器打開flattr的登錄頁並被要求授予CoinPod關於flattr的權限。完成授權後，您將會自動回到本頁面。</string>
   <string name="authenticate_label">授權</string>
   <string name="return_home_label">返回主頁</string>
   <string name="flattr_auth_success">授權成功！您可以在本應用使用flatter的功能了。</string>
   <string name="no_flattr_token_title">未找到Flattr密鑰</string>
-  <string name="no_flattr_token_notification_msg">您的flattr賬戶似乎還未關聯至AntennaPod。請按這裡來進行授權。</string>
-  <string name="no_flattr_token_msg">您的flattr賬戶似乎還未關聯至AntennaPod。您可以通過關聯flattr賬戶至AntennaPod來在本應用內部flatter東西，您也可以去通過網站flattr東西。</string>
+  <string name="no_flattr_token_notification_msg">您的flattr賬戶似乎還未關聯至CoinPod。請按這裡來進行授權。</string>
+  <string name="no_flattr_token_msg">您的flattr賬戶似乎還未關聯至CoinPod。您可以通過關聯flattr賬戶至CoinPod來在本應用內部flatter東西，您也可以去通過網站flattr東西。</string>
   <string name="authenticate_now_label">授權</string>
   <string name="action_forbidden_title">操作被禁止</string>
-  <string name="action_forbidden_msg">AntennaPod沒有進行此操作的權限。可能是因為您賬戶與AntennaPod的關聯已被撤銷。您可以重新授權或通過網頁來操作。</string>
+  <string name="action_forbidden_msg">CoinPod沒有進行此操作的權限。可能是因為您賬戶與CoinPod的關聯已被撤銷。您可以重新授權或通過網頁來操作。</string>
   <string name="access_revoked_title">權限已撤銷</string>
-  <string name="access_revoked_info">您已成功撤銷AntennaPod與您賬戶的關聯。要完成此流程，請您前往flattr的網站，在賬戶設置中也移除本應用的關聯。</string>
+  <string name="access_revoked_info">您已成功撤銷CoinPod與您賬戶的關聯。要完成此流程，請您前往flattr的網站，在賬戶設置中也移除本應用的關聯。</string>
   <!--Flattr-->
   <string name="flattr_click_success">Flattr了一個事物！</string>
   <string name="flattr_click_success_count">Flatter了 %d 個事物！</string>
@@ -244,14 +244,14 @@
   <string name="flattr_click_failure">未能flattr %s。</string>
   <string name="flattr_click_enqueued">稍後會被flattr</string>
   <string name="flattring_thing">Flattring %s</string>
-  <string name="flattring_label">AntennaPod 正在 flattr</string>
-  <string name="flattrd_label">AntennaPod 完成 flattr</string>
-  <string name="flattrd_failed_label">AntennaPod未能完成flattr</string>
+  <string name="flattring_label">CoinPod 正在 flattr</string>
+  <string name="flattrd_label">CoinPod 完成 flattr</string>
+  <string name="flattrd_failed_label">CoinPod未能完成flattr</string>
   <string name="flattr_retrieving_status">正在接收flattr的事物</string>
   <!--Variable Speed-->
   <string name="download_plugin_label">已下載的插件</string>
   <string name="no_playback_plugin_title">插件未安裝</string>
-  <string name="no_playback_plugin_or_sonic_msg">為了能以不同的速率播放，我們建議您啟用自帶的Sonic播放器 [Android 4.1+]。\n\n您也可以從谷歌市場下載第三方播放器 <i>Prestissimo</i> 。\nPrestissimo與AntennaPod無關.</string>
+  <string name="no_playback_plugin_or_sonic_msg">為了能以不同的速率播放，我們建議您啟用自帶的Sonic播放器 [Android 4.1+]。\n\n您也可以從谷歌市場下載第三方播放器 <i>Prestissimo</i> 。\nPrestissimo與CoinPod無關.</string>
   <string name="set_playback_speed_label">播放速度</string>
   <string name="enable_sonic">啟用Sonic</string>
   <!--Empty list labels-->
@@ -293,7 +293,7 @@
   <!--Content descriptions for image buttons-->
   <!--Feed information screen-->
   <!--Progress information-->
-  <!--AntennaPodSP-->
+  <!--CoinPodSP-->
   <!--Episodes apply actions-->
   <!--Sort-->
   <!--Rating dialog-->
