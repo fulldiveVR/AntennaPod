@@ -6,6 +6,11 @@ plugins {
 
 import org.apache.tools.ant.filters.ReplaceTokens
 
+// Load keystore properties
+def keystorePropertiesFile = file("../../keys/keystore.properties")
+def keystoreProperties = new Properties()
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
@@ -34,10 +39,10 @@ android {
 
     signingConfigs {
         releaseConfig {
-            storeFile file('../../keys/keys_external.jks')
-            storePassword System.getenv("EXTERNAL_KEYSTORE_PASSWORD")
-            keyAlias System.getenv("EXTERNAL_ALIAS")
-            keyPassword System.getenv("EXTERNAL_ALIAS_PASSWORD")
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
         }
     }
 
