@@ -69,8 +69,8 @@ public class PodcastApp extends Application {
 				.sendNoSubscriberEvent(false)
 				.installDefaultEventBus();
 
-		EventSenderConfig.INSTANCE.setLogLevel(LogLevel.DEBUG);
-		EventSender.Companion.getInstance(this);
+		EventSenderConfig.logLevel = LogLevel.DEBUG;
+		EventSender.getInstance(this);
     }
 
 }
