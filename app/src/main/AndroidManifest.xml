@@ -141,14 +141,6 @@
         <activity android:name=".activity.StorageErrorActivity">
         </activity>
         <activity
-            android:name=".activity.AboutActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:label="@string/about_pref">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.danoeh.antennapod.activity.PreferenceActivity"/>
-        </activity>
-        <activity
                 android:name=".activity.ImportExportActivity"
                 android:label="@string/import_export">
             <meta-data
@@ -237,6 +229,7 @@
         <activity
             android:name=".activity.OnlineFeedViewActivity"
             android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.AntennaPod.Dark.Translucent"
             android:label="@string/add_feed_label">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

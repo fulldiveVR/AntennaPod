@@ -1,7 +1,6 @@
 package de.danoeh.antennapod.adapter;
 
 import android.os.Build;
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.MotionEventCompat;
@@ -26,10 +25,10 @@ import android.widget.TextView;
 import com.joanzapata.iconify.Iconify;
 
 import de.danoeh.antennapod.core.event.PlaybackPositionEvent;
+import de.danoeh.antennapod.fragment.ItemPagerFragment;
 import org.apache.commons.lang3.ArrayUtils;
 
 import java.lang.ref.WeakReference;
-import java.util.List;
 
 import de.danoeh.antennapod.R;
 import de.danoeh.antennapod.activity.MainActivity;
@@ -44,7 +43,6 @@ import de.danoeh.antennapod.core.feed.util.ImageResourceUtils;
 import de.danoeh.antennapod.core.util.LongList;
 import de.danoeh.antennapod.core.util.NetworkUtils;
 import de.danoeh.antennapod.core.util.ThemeUtils;
-import de.danoeh.antennapod.fragment.ItemFragment;
 import de.danoeh.antennapod.menuhandler.FeedItemMenuHandler;
 
 /**
@@ -61,7 +59,6 @@ public class QueueRecyclerAdapter extends RecyclerView.Adapter<QueueRecyclerAdap
     private boolean locked;
 
     private FeedItem selectedItem;
-    private ViewHolder currentlyPlayingItem = null;
 
     private final int playingBackGroundColor;
     private final int normalBackGroundColor;
@@ -84,11 +81,13 @@ public class QueueRecyclerAdapter extends RecyclerView.Adapter<QueueRecyclerAdap
         notifyDataSetChanged();
     }
 
+    @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.queue_listitem, parent, false);
         return new ViewHolder(view);
     }
 
+    @Override
     public void onBindViewHolder(ViewHolder holder, int pos) {
         FeedItem item = itemAccess.getItem(pos);
         holder.bind(item);
@@ -96,18 +95,6 @@ public class QueueRecyclerAdapter extends RecyclerView.Adapter<QueueRecyclerAdap
             selectedItem = item;
             return false;
         });
-    }
-
-    @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int pos, List<Object> payload) {
-        onBindViewHolder(holder, pos);
-
-        if (holder == currentlyPlayingItem && payload.size() == 1 && payload.get(0) instanceof PlaybackPositionEvent) {
-            PlaybackPositionEvent event = (PlaybackPositionEvent) payload.get(0);
-            holder.progressBar.setProgress((int) (100.0 * event.getPosition() / event.getDuration()));
-            holder.progressLeft.setText(Converter.getDurationStringLong(event.getPosition()));
-            holder.progressRight.setText(Converter.getDurationStringLong(event.getDuration()));
-        }
     }
 
     @Nullable
@@ -123,12 +110,6 @@ public class QueueRecyclerAdapter extends RecyclerView.Adapter<QueueRecyclerAdap
 
     public int getItemCount() {
         return itemAccess.getCount();
-    }
-
-    public void notifyCurrentlyPlayingItemChanged(PlaybackPositionEvent event) {
-        if (currentlyPlayingItem != null && currentlyPlayingItem.getAdapterPosition() != RecyclerView.NO_POSITION) {
-            notifyItemChanged(currentlyPlayingItem.getAdapterPosition(), event);
-        }
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder
@@ -182,7 +163,7 @@ public class QueueRecyclerAdapter extends RecyclerView.Adapter<QueueRecyclerAdap
             if (activity != null) {
                 long[] ids = itemAccess.getQueueIds().toArray();
                 int position = ArrayUtils.indexOf(ids, item.getId());
-                activity.loadChildFragment(ItemFragment.newInstance(ids, position));
+                activity.loadChildFragment(ItemPagerFragment.newInstance(ids, position));
             }
         }
 
@@ -310,7 +291,6 @@ public class QueueRecyclerAdapter extends RecyclerView.Adapter<QueueRecyclerAdap
 
                 if(media.isCurrentlyPlaying()) {
                     container.setBackgroundColor(playingBackGroundColor);
-                    currentlyPlayingItem = this;
                 } else {
                     container.setBackgroundColor(normalBackGroundColor);
                 }
@@ -330,6 +310,15 @@ public class QueueRecyclerAdapter extends RecyclerView.Adapter<QueueRecyclerAdap
                     .load();
         }
 
+        public boolean isCurrentlyPlayingItem() {
+            return item.getMedia() != null && item.getMedia().isCurrentlyPlaying();
+        }
+
+        public void notifyPlaybackPositionUpdated(PlaybackPositionEvent event) {
+            progressBar.setProgress((int) (100.0 * event.getPosition() / event.getDuration()));
+            progressLeft.setText(Converter.getDurationStringLong(event.getPosition()));
+            progressRight.setText(Converter.getDurationStringLong(event.getDuration()));
+        }
     }
 
     public interface ItemAccess {

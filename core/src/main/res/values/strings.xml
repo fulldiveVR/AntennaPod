@@ -325,11 +325,12 @@
     <string name="no_fav_episodes_label">You can add episodes to the favorites by long-pressing them.</string>
     <string name="no_chapters_head_label">No chapters</string>
     <string name="no_chapters_label">This episode has no chapters.</string>
+    <string name="no_subscriptions_head_label">No subscriptions</string>
+    <string name="no_subscriptions_label">To subscribe to a podcast, press the plus icon below.</string>
 
     <!-- Preferences -->
     <string name="storage_pref">Storage</string>
     <string name="project_pref">Project</string>
-    <string name="about_pref">About</string>
     <string name="queue_label">Queue</string>
     <string name="integrations_label">Integrations</string>
     <string name="automation">Automation</string>
@@ -454,8 +455,11 @@
     <string name="pref_showDownloadReport_title">Show Download Report</string>
     <string name="pref_showDownloadReport_sum">If downloads fail, generate a report that shows the details of the failure.</string>
     <string name="pref_expand_notify_unsupport_toast">Android versions before 4.1 do not support expanded notifications.</string>
-    <string name="pref_queueAddToFront_sum">Add new episodes to the front of the queue.</string>
-    <string name="pref_queueAddToFront_title">Enqueue at Front</string>
+    <string name="pref_enqueue_location_title">Enqueue Location</string>
+    <string name="pref_enqueue_location_sum">Add episodes to: %1$s</string>
+    <string name="enqueue_location_back">Back</string>
+    <string name="enqueue_location_front">Front</string>
+    <string name="enqueue_location_after_current">After current episode</string>
     <string name="pref_smart_mark_as_played_disabled">Disabled</string>
     <string name="pref_image_cache_size_title">Image Cache Size</string>
     <string name="pref_image_cache_size_sum">Size of the disk cache for images.</string>
@@ -497,6 +501,17 @@
     <string name="back_button_go_to_page_title">Select page</string>
     <string name="pref_delete_removes_from_queue_title">Delete removes from Queue</string>
     <string name="pref_delete_removes_from_queue_sum">Automatically remove an episode from the queue when it is deleted.</string>
+
+    <!-- About screen -->
+    <string name="about_pref">About</string>
+    <string name="antennapod_version">AntennaPod version</string>
+    <string name="developers">Developers</string>
+    <string name="developers_summary">Everyone can help to make AntennaPod better</string>
+    <string name="translators">Translators</string>
+    <string name="translators_summary">Translations are created by users of AntennaPod using Transifex</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="licenses">Licenses</string>
+    <string name="licenses_summary">AntennaPod uses other great software</string>
 
     <!-- Search -->
     <string name="search_hint">Search for episodes</string>
@@ -618,7 +633,7 @@
 
     <!-- Online feed view -->
     <string name="subscribe_label">Subscribe</string>
-    <string name="downloading_label">Downloading&#8230;</string>
+    <string name="subscribing_label">Subscribing&#8230;</string>
 
     <!-- Content descriptions for image buttons -->
     <string name="rewind_label">Rewind</string>

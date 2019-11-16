@@ -212,7 +212,14 @@ public class QueueFragment extends Fragment {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onEventMainThread(PlaybackPositionEvent event) {
         if (recyclerAdapter != null) {
-            recyclerAdapter.notifyCurrentlyPlayingItemChanged(event);
+            for (int i = 0; i < recyclerAdapter.getItemCount(); i++) {
+                QueueRecyclerAdapter.ViewHolder holder = (QueueRecyclerAdapter.ViewHolder)
+                        recyclerView.findViewHolderForAdapterPosition(i);
+                if (holder != null && holder.isCurrentlyPlayingItem()) {
+                    holder.notifyPlaybackPositionUpdated(event);
+                    break;
+                }
+            }
         }
     }
 
@@ -503,7 +510,8 @@ public class QueueFragment extends Fragment {
         registerForContextMenu(recyclerView);
 
         itemTouchHelper = new ItemTouchHelper(
-            new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP | ItemTouchHelper.DOWN, ItemTouchHelper.RIGHT) {
+            new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP | ItemTouchHelper.DOWN,
+                    ItemTouchHelper.LEFT | ItemTouchHelper.RIGHT) {
 
                 // Position tracking whilst dragging
                 int dragFrom = -1;
@@ -645,14 +653,16 @@ public class QueueFragment extends Fragment {
 
     private void refreshInfoBar() {
         String info = queue.size() + getString(R.string.episodes_suffix);
-        if(queue.size() > 0) {
+        if (queue.size() > 0) {
             long timeLeft = 0;
-            for(FeedItem item : queue) {
-                float playbackSpeed = PlaybackSpeedUtils.getCurrentPlaybackSpeed(item.getMedia());
-                if(item.getMedia() != null) {
-                    timeLeft +=
-                            (long) ((item.getMedia().getDuration() - item.getMedia().getPosition())
-                                    / playbackSpeed);
+            for (FeedItem item : queue) {
+                float playbackSpeed = 1;
+                if (UserPreferences.timeRespectsSpeed()) {
+                    playbackSpeed = PlaybackSpeedUtils.getCurrentPlaybackSpeed(item.getMedia());
+                }
+                if (item.getMedia() != null) {
+                    long itemTimeLeft = item.getMedia().getDuration() - item.getMedia().getPosition();
+                    timeLeft += itemTimeLeft / playbackSpeed;
                 }
             }
             info += " • ";

@@ -7,6 +7,10 @@ import android.os.Looper;
 import android.text.TextUtils;
 import android.util.Log;
 
+import androidx.annotation.VisibleForTesting;
+
+import org.greenrobot.eventbus.EventBus;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
@@ -26,6 +30,7 @@ import de.danoeh.antennapod.core.feed.Feed;
 import de.danoeh.antennapod.core.feed.FeedItem;
 import de.danoeh.antennapod.core.feed.FeedMedia;
 import de.danoeh.antennapod.core.feed.FeedPreferences;
+import de.danoeh.antennapod.core.preferences.UserPreferences;
 import de.danoeh.antennapod.core.service.GpodnetSyncService;
 import de.danoeh.antennapod.core.service.download.DownloadStatus;
 import de.danoeh.antennapod.core.service.playback.PlaybackService;
@@ -35,7 +40,6 @@ import de.danoeh.antennapod.core.util.LongList;
 import de.danoeh.antennapod.core.util.comparator.FeedItemPubdateComparator;
 import de.danoeh.antennapod.core.util.exception.MediaFileNotFoundException;
 import de.danoeh.antennapod.core.util.playback.PlaybackServiceStarter;
-import org.greenrobot.eventbus.EventBus;
 
 import static android.content.Context.MODE_PRIVATE;
 
@@ -299,59 +303,26 @@ public final class DBTasks {
         media.setDownloaded(false);
         media.setFile_url(null);
         DBWriter.setFeedMedia(media);
-        EventBus.getDefault().post(new FeedListUpdateEvent());
+        EventBus.getDefault().post(new FeedListUpdateEvent(media.getItem().getFeed()));
     }
 
-    /**
-     * Requests the download of a list of FeedItem objects.
-     *
-     * @param context Used for requesting the download and accessing the DB.
-     * @param items   The FeedItem objects.
-     */
-    public static void downloadFeedItems(final Context context,
-                                         FeedItem... items) throws DownloadRequestException {
-        downloadFeedItems(true, context, items);
-    }
-
-    static void downloadFeedItems(boolean performAutoCleanup,
-                                  final Context context, final FeedItem... items)
-            throws DownloadRequestException {
-        final DownloadRequester requester = DownloadRequester.getInstance();
-
-        if (performAutoCleanup) {
-            new Thread() {
-
-                @Override
-                public void run() {
-                    ClientConfig.dbTasksCallbacks.getEpisodeCacheCleanupAlgorithm()
-                            .makeRoomForEpisodes(context, items.length);
-                }
-
-            }.start();
-        }
-        for (FeedItem item : items) {
-            if (item.getMedia() != null
-                    && !requester.isDownloadingFile(item.getMedia())
-                    && !item.getMedia().isDownloaded()) {
-                if (items.length > 1) {
-                    try {
-                        requester.downloadMedia(context, item.getMedia());
-                    } catch (DownloadRequestException e) {
-                        e.printStackTrace();
-                        DBWriter.addDownloadStatus(
-                                new DownloadStatus(item.getMedia(), item
-                                        .getMedia()
-                                        .getHumanReadableIdentifier(),
-                                        DownloadError.ERROR_REQUEST_ERROR,
-                                        false, e.getMessage()
-                                )
-                        );
-                    }
-                } else {
-                    requester.downloadMedia(context, item.getMedia());
+    @VisibleForTesting(otherwise = VisibleForTesting.PACKAGE_PRIVATE)
+    public static List<? extends FeedItem> enqueueFeedItemsToDownload(final Context context,
+                                                                      List<? extends FeedItem> items)
+            throws InterruptedException, ExecutionException {
+        List<FeedItem> itemsToEnqueue = new ArrayList<>();
+        if (UserPreferences.enqueueDownloadedEpisodes()) {
+            LongList queueIDList = DBReader.getQueueIDList();
+            for (FeedItem item : items) {
+                if (!queueIDList.contains(item.getId())) {
+                    itemsToEnqueue.add(item);
                 }
             }
+            DBWriter.addQueueItem(context,
+                    itemsToEnqueue.toArray(new FeedItem[0]))
+                    .get();
         }
+        return itemsToEnqueue;
     }
 
     /**
@@ -558,13 +529,13 @@ public final class DBTasks {
         adapter.close();
 
         try {
-            DBWriter.addNewFeed(context, newFeedsList.toArray(new Feed[newFeedsList.size()])).get();
-            DBWriter.setCompleteFeed(updatedFeedsList.toArray(new Feed[updatedFeedsList.size()])).get();
+            DBWriter.addNewFeed(context, newFeedsList.toArray(new Feed[0])).get();
+            DBWriter.setCompleteFeed(updatedFeedsList.toArray(new Feed[0])).get();
         } catch (InterruptedException | ExecutionException e) {
             e.printStackTrace();
         }
 
-        EventBus.getDefault().post(new FeedListUpdateEvent());
+        EventBus.getDefault().post(new FeedListUpdateEvent(updatedFeedsList));
 
         return resultFeeds;
     }
