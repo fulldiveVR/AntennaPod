@@ -4,14 +4,18 @@ import android.app.Application;
 import android.os.Build;
 import android.os.StrictMode;
 
+import com.fulldive.eventsender.lib.EventSender;
+import com.fulldive.eventsender.lib.EventSenderConfig;
+import com.fulldive.eventsender.lib.LogLevel;
 import com.joanzapata.iconify.Iconify;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 import com.joanzapata.iconify.fonts.MaterialModule;
 
+import org.greenrobot.eventbus.EventBus;
+
 import de.danoeh.antennapod.core.ApCoreEventBusIndex;
 import de.danoeh.antennapod.core.ClientConfig;
 import de.danoeh.antennapod.spa.SPAUtil;
-import org.greenrobot.eventbus.EventBus;
 
 /** Main application class. */
 public class PodcastApp extends Application {
@@ -64,6 +68,9 @@ public class PodcastApp extends Application {
 				.logNoSubscriberMessages(false)
 				.sendNoSubscriberEvent(false)
 				.installDefaultEventBus();
+
+		EventSenderConfig.INSTANCE.setLogLevel(LogLevel.DEBUG);
+		EventSender.Companion.getInstance(this);
     }
 
 }

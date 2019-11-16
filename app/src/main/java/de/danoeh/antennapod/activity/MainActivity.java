@@ -11,16 +11,6 @@ import android.database.DataSetObserver;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import androidx.annotation.NonNull;
-import androidx.annotation.VisibleForTesting;
-import com.google.android.material.snackbar.Snackbar;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
-import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.widget.Toolbar;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.ContextMenu;
@@ -32,10 +22,20 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
+import androidx.annotation.NonNull;
+import androidx.annotation.VisibleForTesting;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
-import de.danoeh.antennapod.core.event.FeedListUpdateEvent;
-import de.danoeh.antennapod.core.event.UnreadItemsUpdateEvent;
+import com.bumptech.glide.Glide;
+import com.fulldive.eventsender.lib.EventSender;
+import com.google.android.material.snackbar.Snackbar;
+
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.Validate;
 import org.greenrobot.eventbus.EventBus;
@@ -48,8 +48,10 @@ import de.danoeh.antennapod.R;
 import de.danoeh.antennapod.adapter.NavListAdapter;
 import de.danoeh.antennapod.core.asynctask.FeedRemover;
 import de.danoeh.antennapod.core.dialog.ConfirmationDialog;
+import de.danoeh.antennapod.core.event.FeedListUpdateEvent;
 import de.danoeh.antennapod.core.event.MessageEvent;
 import de.danoeh.antennapod.core.event.QueueEvent;
+import de.danoeh.antennapod.core.event.UnreadItemsUpdateEvent;
 import de.danoeh.antennapod.core.feed.Feed;
 import de.danoeh.antennapod.core.preferences.PlaybackPreferences;
 import de.danoeh.antennapod.core.preferences.UserPreferences;
@@ -216,6 +218,8 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
 
         checkFirstLaunch();
         PreferenceUpgrader.checkUpgrades(this);
+
+        EventSender.Companion.getInstance(this).onStart(this);
     }
 
     private void saveLastNavFragment(String tag) {
@@ -522,6 +526,8 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
         if(pd != null) {
             pd.dismiss();
         }
+
+        EventSender.Companion.getInstance(this).onStop(this);
     }
 
 
