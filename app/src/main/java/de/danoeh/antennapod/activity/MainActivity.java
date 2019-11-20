@@ -218,8 +218,6 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
 
         checkFirstLaunch();
         PreferenceUpgrader.checkUpgrades(this);
-
-        EventSender.getInstance(getApplicationContext()).onStart(this);
     }
 
     private void saveLastNavFragment(String tag) {
@@ -494,6 +492,7 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
         super.onStart();
         EventBus.getDefault().register(this);
         RatingDialog.init(this);
+        EventSender.getInstance(getApplicationContext()).onStart(this);
     }
 
     @Override
@@ -526,7 +525,6 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
         if(pd != null) {
             pd.dismiss();
         }
-
         EventSender.getInstance(getApplicationContext()).onStop(this);
     }
 
