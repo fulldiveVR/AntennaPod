@@ -5,8 +5,6 @@ import android.os.Build;
 import android.os.StrictMode;
 
 import com.fulldive.eventsender.lib.EventSender;
-import com.fulldive.eventsender.lib.EventSenderConfig;
-import com.fulldive.eventsender.lib.LogLevel;
 import com.joanzapata.iconify.Iconify;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 import com.joanzapata.iconify.fonts.MaterialModule;
@@ -69,7 +67,6 @@ public class PodcastApp extends Application {
 				.sendNoSubscriberEvent(false)
 				.installDefaultEventBus();
 
-		EventSenderConfig.logLevel = LogLevel.DEBUG;
 		EventSender.getInstance(this);
     }
 
