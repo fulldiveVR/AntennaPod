@@ -525,7 +525,6 @@ public class MainActivity extends CastEnabledActivity implements NavDrawerActivi
         if(pd != null) {
             pd.dismiss();
         }
-
         EventSender.getInstance(getApplicationContext()).onStop(this);
     }
 
