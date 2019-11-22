@@ -18,7 +18,7 @@ public class HtmlWriter implements ExportWriter {
 
     private static final String TAG = "HtmlWriter";
     private static final String ENCODING = "UTF-8";
-    private static final String HTML_TITLE = "AntennaPod Subscriptions";
+    private static final String HTML_TITLE = "CoinPod Subscriptions";
 
     /**
      * Takes a list of feeds and a writer and writes those into an HTML

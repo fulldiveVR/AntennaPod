@@ -504,14 +504,14 @@
 
     <!-- About screen -->
     <string name="about_pref">About</string>
-    <string name="antennapod_version">AntennaPod version</string>
+    <string name="antennapod_version">CoinPod version</string>
     <string name="developers">Developers</string>
-    <string name="developers_summary">Everyone can help to make AntennaPod better</string>
+    <string name="developers_summary">Everyone can help to make CoinPod better</string>
     <string name="translators">Translators</string>
-    <string name="translators_summary">Translations are created by users of AntennaPod using Transifex</string>
+    <string name="translators_summary">Translations are created by users of CoinPod using Transifex</string>
     <string name="privacy_policy">Privacy policy</string>
     <string name="licenses">Licenses</string>
-    <string name="licenses_summary">AntennaPod uses other great software</string>
+    <string name="licenses_summary">CoinPod uses other great software</string>
 
     <!-- Search -->
     <string name="search_hint">Search for episodes</string>
