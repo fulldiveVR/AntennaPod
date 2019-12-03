@@ -270,7 +270,7 @@
   <string name="player_buffering_msg">Puffert</string>
   <string name="player_go_to_picture_in_picture">Bild-in-Bild-Modus</string>
   <string name="playbackservice_notification_title">Spiele Podcast ab</string>
-  <string name="unknown_media_key">CoinPod - Unbekannte Medientaste: %1$d</string>
+  <string name="unknown_media_key">CashPod - Unbekannte Medientaste: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Abspielliste sperren</string>
   <string name="unlock_queue">Abspielliste entsperren</string>
@@ -297,7 +297,7 @@
   <!--Variable Speed-->
   <string name="download_plugin_label">Plugin herunterladen</string>
   <string name="no_playback_plugin_title">Plugin nicht installiert</string>
-  <string name="no_playback_plugin_or_sonic_msg">Um variable Wiedergabegeschwindigkeit benutzen zu können, empfehlen wir, den integrierten Sonic Mediaplayer [Android 4.1+] zu aktivieren.\n\nAlternativ kannst du das kostenlose Plugin <i>Prestissimo</i> eines Drittanbieters aus dem Play Store herunterladen.\nProbleme mit Prestissimo liegen nicht im Verantwortungsbereich von CoinPod und sollten dem Entwickler des Plugins gemeldet werden.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Um variable Wiedergabegeschwindigkeit benutzen zu können, empfehlen wir, den integrierten Sonic Mediaplayer [Android 4.1+] zu aktivieren.\n\nAlternativ kannst du das kostenlose Plugin <i>Prestissimo</i> eines Drittanbieters aus dem Play Store herunterladen.\nProbleme mit Prestissimo liegen nicht im Verantwortungsbereich von CashPod und sollten dem Entwickler des Plugins gemeldet werden.</string>
   <string name="set_playback_speed_label">Wiedergabegeschwindigkeiten</string>
   <string name="enable_sonic">Sonic aktivieren</string>
   <!--Empty list labels-->
@@ -392,7 +392,7 @@
   <string name="pref_nav_drawer_feed_order_sum">Ändere die Reihenfolge deiner Abonnements</string>
   <string name="pref_nav_drawer_feed_counter_title">Abonnement-Zähler einstellen</string>
   <string name="pref_nav_drawer_feed_counter_sum">Ändere die durch den Abonnementszähler angezeigten Informationen. Betrifft auch die Sortierung der Abonnements wenn \"Reihenfolge der Abonnements\" auf \"Zähler\" gesetzt ist.</string>
-  <string name="pref_set_theme_sum">Ändere das Aussehen von CoinPod.</string>
+  <string name="pref_set_theme_sum">Ändere das Aussehen von CashPod.</string>
   <string name="pref_automatic_download_title">Automatisches Herunterladen</string>
   <string name="pref_automatic_download_sum">Konfiguriere das automatische Herunterladen von Episoden.</string>
   <string name="pref_autodl_wifi_filter_title">W-LAN-Filter aktivieren</string>
@@ -468,7 +468,7 @@
   <string name="pref_no_browser_found">Kein Browser gefunden.</string>
   <string name="pref_cast_title">Chromecast-Unterstützung</string>
   <string name="pref_cast_message_play_flavor">Aktiviere die Unterstützung von Cast-Geräten (Chromecast, Lautsprecher oder Android TV) zum entfernten Abspielen</string>
-  <string name="pref_cast_message_free_flavor">Chromecast benötigt proprietäre Bibliotheken von Drittanbietern, die in dieser Version von CoinPod deaktiviert sind</string>
+  <string name="pref_cast_message_free_flavor">Chromecast benötigt proprietäre Bibliotheken von Drittanbietern, die in dieser Version von CashPod deaktiviert sind</string>
   <string name="pref_enqueue_downloaded_title">Downloads einreihen</string>
   <string name="pref_enqueue_downloaded_summary">Füge heruntergeladene Episoden zur Abspielliste hinzu</string>
   <string name="media_player_builtin">Androids eingebauter Abspieler</string>
@@ -484,7 +484,7 @@
   <string name="back_button_open_drawer">Öffne Seitenleiste</string>
   <string name="back_button_double_tap">Doppelt tippen zum Verlassen</string>
   <string name="back_button_show_prompt">Bestätigen zum Verlassen</string>
-  <string name="close_prompt">Bist du sicher, dass du CoinPod schließen möchtest?</string>
+  <string name="close_prompt">Bist du sicher, dass du CashPod schließen möchtest?</string>
   <string name="double_tap_toast">Zurück-Button erneut tippen zum Verlassen</string>
   <string name="back_button_go_to_page">Gehe zu Seite…</string>
   <string name="back_button_go_to_page_title">Seite auswählen</string>
@@ -505,7 +505,7 @@
   <string name="opml_import_option">Option %1$d</string>
   <string name="opml_import_explanation_1">Wähle einen bestimmten Dateipfad aus dem lokalen Dateisystem.</string>
   <string name="opml_import_explanation_2">Verwende externe Anwendungen wie Dropbox, Google Drive oder deinen Lieblingsdateimanager, um eine OPML-Datei zu öffnen.</string>
-  <string name="opml_import_explanation_3">Viele Anwendungen wie Google Mail, Dropbox, Google Drive und die meisten Dateimanager können OPML-Dateien <i>mit</i> CoinPod <i>öffnen</i>.</string>
+  <string name="opml_import_explanation_3">Viele Anwendungen wie Google Mail, Dropbox, Google Drive und die meisten Dateimanager können OPML-Dateien <i>mit</i> CashPod <i>öffnen</i>.</string>
   <string name="start_import_label">Import starten</string>
   <string name="opml_import_label">OPML Import</string>
   <string name="opml_directory_error">FEHLER!</string>
@@ -574,7 +574,7 @@
   <string name="gpodnetauth_device_caption_errorEmpty">Beschreibung darf nicht leer sein</string>
   <string name="gpodnetauth_device_butChoose">Auswählen</string>
   <string name="gpodnetauth_finish_title">Anmeldung erfolgreich!</string>
-  <string name="gpodnetauth_finish_descr">Glückwunsch! Dein gpodder.net Profil ist jetzt mit deinem Gerät verbunden. Von nun an wird CoinPod automatisch deine Abonnements mit deinem gpodder.net Profil synchronisieren.</string>
+  <string name="gpodnetauth_finish_descr">Glückwunsch! Dein gpodder.net Profil ist jetzt mit deinem Gerät verbunden. Von nun an wird CashPod automatisch deine Abonnements mit deinem gpodder.net Profil synchronisieren.</string>
   <string name="gpodnetauth_finish_butsyncnow">Jetzt synchronisieren</string>
   <string name="gpodnetauth_finish_butgomainscreen">Zum Hauptbildschirm zurückkehren</string>
   <string name="gpodnetsync_auth_error_title">gpodder.net Anmeldefehler</string>
@@ -588,7 +588,7 @@
   <string name="selected_folder_label">Ausgewählter Ordner:</string>
   <string name="create_folder_label">Neuer Ordner</string>
   <string name="choose_data_directory">Datenordner auswählen</string>
-  <string name="choose_data_directory_message">Bitte wähle eine Basis für deinen Datenordner. CoinPod erstellt automatisch die richtigen Unterverzeichnisse.</string>
+  <string name="choose_data_directory_message">Bitte wähle eine Basis für deinen Datenordner. CashPod erstellt automatisch die richtigen Unterverzeichnisse.</string>
   <string name="choose_data_directory_permission_rationale">Zugriff auf den externen Speicher wird benötigt, um den Datenordner zu ändern</string>
   <string name="choose_data_directory_available_space">%1$s von %2$s frei</string>
   <string name="create_folder_msg">Neuen Ordner mit Namen \"%1$s\" erstellen?</string>
@@ -606,7 +606,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Bei Unterbrechungen pausieren</string>
   <string name="pref_resumeAfterCall_sum">Wiedergabe fortsetzen, wenn Anruf beendet ist</string>
   <string name="pref_resumeAfterCall_title">Nach Anruf fortsetzen</string>
-  <string name="pref_restart_required">CoinPod muss neu gestartet werden, damit die Änderungen wirksam werden.</string>
+  <string name="pref_restart_required">CashPod muss neu gestartet werden, damit die Änderungen wirksam werden.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Abonnieren</string>
   <string name="subscribed_label">Abonniert</string>
@@ -635,7 +635,7 @@
   <string name="auto_download_disabled_globally">Automatisches Herunterladen ist in den Einstellungen deaktiviert</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Datenbank wird aktualisiert</string>
-  <!--CoinPodSP-->
+  <!--CashPodSP-->
   <string name="sp_apps_importing_feeds_msg">Importiere Abonnements aus Single-Purpose Apps</string>
   <!--Add podcast fragment-->
   <string name="search_podcast_hint">Podcast suchen…</string>
@@ -670,8 +670,8 @@
   <string name="sort_duration_short_long">Dauer (kurz \u2192 lang)</string>
   <string name="sort_duration_long_short">Dauer (lang \u2192 kurz)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Gefällt dir CoinPod?</string>
-  <string name="rating_message">Wir würden uns freuen, wenn du dir kurz die Zeit nimmst, CoinPod zu bewerten.</string>
+  <string name="rating_title">Gefällt dir CashPod?</string>
+  <string name="rating_message">Wir würden uns freuen, wenn du dir kurz die Zeit nimmst, CashPod zu bewerten.</string>
   <string name="rating_never_label">Lass mich in Ruhe</string>
   <string name="rating_later_label">Erinnere mich später</string>
   <string name="rating_now_label">Sicher, los geht\'s!</string>
@@ -701,12 +701,12 @@
   <string name="subscription_num_columns">Spaltenanzahl</string>
   <!--Database import/export-->
   <string name="import_export">Datenbankimport/-export</string>
-  <string name="import_export_warning">Diese experimentelle Funktion kann dazu benutzt werden, deine Abonnements und abgespielten Episoden auf ein anderes Gerät zu übertragen.\n\nExportierte Datenbanken können nur mit der gleichen CoinPod-Version wieder importiert werden, andernfalls kann dies zu unerwartetem Verhalten führen.\n\nNach dem Importieren können Episoden als heruntergeladen angezeigt werden, obwohl sie dies nicht sind. Einfach den Abspielknopf der Episoden drücken, damit CoinPod das erkennt.</string>
+  <string name="import_export_warning">Diese experimentelle Funktion kann dazu benutzt werden, deine Abonnements und abgespielten Episoden auf ein anderes Gerät zu übertragen.\n\nExportierte Datenbanken können nur mit der gleichen CashPod-Version wieder importiert werden, andernfalls kann dies zu unerwartetem Verhalten führen.\n\nNach dem Importieren können Episoden als heruntergeladen angezeigt werden, obwohl sie dies nicht sind. Einfach den Abspielknopf der Episoden drücken, damit CashPod das erkennt.</string>
   <string name="label_import">Import</string>
   <string name="label_export">Export</string>
   <string name="import_select_file">Zu importierende Datei auswählen</string>
   <string name="export_ok">Export erfolgreich.</string>
-  <string name="import_ok">Import erfolgreich.\n\nBitte OK drücken, um CoinPod neuzustarten</string>
+  <string name="import_ok">Import erfolgreich.\n\nBitte OK drücken, um CashPod neuzustarten</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Abspielen auf...</string>
   <string name="cast_disconnect_label">Chromecast-Sitzung trennen</string>

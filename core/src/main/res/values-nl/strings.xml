@@ -270,7 +270,7 @@
   <string name="player_buffering_msg">Bezig met bufferen</string>
   <string name="player_go_to_picture_in_picture">Picture-in-picture-modus</string>
   <string name="playbackservice_notification_title">Bezig met afspelen van podcast</string>
-  <string name="unknown_media_key">CoinPod - onbekende mediatoets: %1$d</string>
+  <string name="unknown_media_key">CashPod - onbekende mediatoets: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Wachtrij vergrendelen</string>
   <string name="unlock_queue">Wachtrij ontgrendelen</string>
@@ -325,7 +325,7 @@
   <string name="storage_pref">Opslag</string>
   <string name="project_pref">Project</string>
   <string name="other_pref">Overig</string>
-  <string name="about_pref">Over CoinPod</string>
+  <string name="about_pref">Over CashPod</string>
   <string name="queue_label">Wachtrij</string>
   <string name="integrations_label">Integraties</string>
   <string name="automation">Automatische acties</string>
@@ -392,7 +392,7 @@
   <string name="pref_nav_drawer_feed_order_sum">Stel de volgorde van je abonnementen in</string>
   <string name="pref_nav_drawer_feed_counter_title">Teller instellen</string>
   <string name="pref_nav_drawer_feed_counter_sum">Wijzig de door de teller getoonde informatie. Is ook van toepassing op de sortering als \'Abonnementsvolgorde\' is ingesteld op \'Teller\'.</string>
-  <string name="pref_set_theme_sum">Pas het uiterlijk van CoinPod aan.</string>
+  <string name="pref_set_theme_sum">Pas het uiterlijk van CashPod aan.</string>
   <string name="pref_automatic_download_title">Automatisch downloaden</string>
   <string name="pref_automatic_download_sum">Stel het automatisch downloaden van afleveringen in.</string>
   <string name="pref_autodl_wifi_filter_title">Wi-Fi-filter inschakelen</string>
@@ -468,7 +468,7 @@
   <string name="pref_no_browser_found">Geen browser aangetroffen.</string>
   <string name="pref_cast_title">Chromecast-ondersteuning</string>
   <string name="pref_cast_message_play_flavor">Ondersteuning activeren voor draadloos afspelen via Cast-apparaten (zoals Chromecast, luidsprekers of Android TV)</string>
-  <string name="pref_cast_message_free_flavor">Voor Chromecast is software van derden vereist die niet beschikbaar is in deze versie van CoinPod</string>
+  <string name="pref_cast_message_free_flavor">Voor Chromecast is software van derden vereist die niet beschikbaar is in deze versie van CashPod</string>
   <string name="pref_enqueue_downloaded_title">Gedownloade afleveringen in wachtrij</string>
   <string name="pref_enqueue_downloaded_summary">Voeg gedownloade afleveringen toe aan de wachtrij</string>
   <string name="media_player_builtin">Ingebouwde Android-speler</string>
@@ -484,7 +484,7 @@
   <string name="back_button_open_drawer">Navigatiemenu openen</string>
   <string name="back_button_double_tap">Dubbeltik om af te sluiten</string>
   <string name="back_button_show_prompt">Afsluiten bevestigen</string>
-  <string name="close_prompt">Weet je zeker dat je CoinPod wilt afsluiten?</string>
+  <string name="close_prompt">Weet je zeker dat je CashPod wilt afsluiten?</string>
   <string name="double_tap_toast">Druk nogmaals op de terugknop om af te sluiten</string>
   <string name="back_button_go_to_page">Ga naar pagina...</string>
   <string name="back_button_go_to_page_title">Kies een pagina</string>
@@ -505,7 +505,7 @@
   <string name="opml_import_option">Optie  %1$d</string>
   <string name="opml_import_explanation_1">Kies een bestand via de bestandsbeheer.</string>
   <string name="opml_import_explanation_2">Kies een OPML-bestand via een andere app, zoals Dropbox of Google Drive, of via je bestandsbeheerder.</string>
-  <string name="opml_import_explanation_3">Apps as Gmail, Dropbox, Google Drive en de meeste bestandsbeheerders kunnen OPML-bestanden <i>openen</i> <i>met</i> CoinPod.</string>
+  <string name="opml_import_explanation_3">Apps as Gmail, Dropbox, Google Drive en de meeste bestandsbeheerders kunnen OPML-bestanden <i>openen</i> <i>met</i> CashPod.</string>
   <string name="start_import_label">Importeren starten</string>
   <string name="opml_import_label">OPML importeren</string>
   <string name="opml_directory_error">FOUT!</string>
@@ -574,7 +574,7 @@
   <string name="gpodnetauth_device_caption_errorEmpty">Apparaatomschrijving mag niet blanco zijn</string>
   <string name="gpodnetauth_device_butChoose">Kiezen</string>
   <string name="gpodnetauth_finish_title">Ingelogd!</string>
-  <string name="gpodnetauth_finish_descr">Gefeliciteerd! Je gpodder.net-account is nu gekoppeld aan je apparaat. CoinPod zal voortaan abonnementen automatisch synchroniseren met je gpodder.net-account.</string>
+  <string name="gpodnetauth_finish_descr">Gefeliciteerd! Je gpodder.net-account is nu gekoppeld aan je apparaat. CashPod zal voortaan abonnementen automatisch synchroniseren met je gpodder.net-account.</string>
   <string name="gpodnetauth_finish_butsyncnow">Nu synchroniseren</string>
   <string name="gpodnetauth_finish_butgomainscreen">Terug naar hoofdscherm</string>
   <string name="gpodnetsync_auth_error_title">gpodder.net - authenticatiefout</string>
@@ -588,7 +588,7 @@
   <string name="selected_folder_label">Gekozen map:</string>
   <string name="create_folder_label">Map creëren</string>
   <string name="choose_data_directory">Kies de gegevensmap</string>
-  <string name="choose_data_directory_message">Kies de hoofdmap voor je gegevens. CoinPod zal de benodigde submappen creëren.</string>
+  <string name="choose_data_directory_message">Kies de hoofdmap voor je gegevens. CashPod zal de benodigde submappen creëren.</string>
   <string name="choose_data_directory_permission_rationale">Toegang tot externe opslag is nodig om de gegevensmap te wijzigen</string>
   <string name="choose_data_directory_available_space">%1$s van %2$s beschikbaar</string>
   <string name="create_folder_msg">Wil je een nieuwe map creëren met de naam \"%1$s\"?</string>
@@ -606,7 +606,7 @@
   <string name="pref_pausePlaybackForFocusLoss_title">Pauzeren bij onderbrekingen</string>
   <string name="pref_resumeAfterCall_sum">Afspelen hervatten na beëindigen van telefoongesprek</string>
   <string name="pref_resumeAfterCall_title">Hervatten na gesprek</string>
-  <string name="pref_restart_required">CoinPod moet opnieuw worden gestart om deze wijziging toe te passen.</string>
+  <string name="pref_restart_required">CashPod moet opnieuw worden gestart om deze wijziging toe te passen.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Abonneren</string>
   <string name="subscribed_label">Geabonneerd</string>
@@ -632,10 +632,10 @@
   <string name="episode_filters_hint">Losse woorden \n\"Meerdere tussen aanhalingstekens\"</string>
   <string name="keep_updated">Bijgewerkt houden</string>
   <string name="keep_updated_summary">Deze feed meenemen bij het (automatisch) verversen van alle feeds</string>
-  <string name="auto_download_disabled_globally">Automatisch downloaden is uitgeschakeld in de CoinPod-instellingen</string>
+  <string name="auto_download_disabled_globally">Automatisch downloaden is uitgeschakeld in de CashPod-instellingen</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Bezig met upgraden van databank...</string>
-  <!--CoinPodSP-->
+  <!--CashPodSP-->
   <string name="sp_apps_importing_feeds_msg">Bezig met importeren van abonnementen uit eenmalige apps...</string>
   <!--Add podcast fragment-->
   <string name="search_podcast_hint">Podcast zoeken...</string>
@@ -670,8 +670,8 @@
   <string name="sort_duration_short_long">Lengte (kort \u2192 lang)</string>
   <string name="sort_duration_long_short">Lengte (lang \u2192 kort)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Wat vind je van CoinPod?</string>
-  <string name="rating_message">We stellen het op prijs als je even de tijd neemt om CoinPod te beoordelen.</string>
+  <string name="rating_title">Wat vind je van CashPod?</string>
+  <string name="rating_message">We stellen het op prijs als je even de tijd neemt om CashPod te beoordelen.</string>
   <string name="rating_never_label">Nee, bedankt</string>
   <string name="rating_later_label">Herinner me later</string>
   <string name="rating_now_label">Ja, doen we!</string>
@@ -701,12 +701,12 @@
   <string name="subscription_num_columns">Aantal kolommen</string>
   <!--Database import/export-->
   <string name="import_export">Databank im-/exporteren</string>
-  <string name="import_export_warning">Met deze experimentele functie kun je je abonnementen en afgespeelde afleveringen overzetten naar een ander apparaat.\n\nGeëxporteerde databanken kunnen alleen worden geïmporteerd in dezelfde versie van CoinPod, anders kunnen zich problemen voordoen.\n\nNa het importeren kunnen afleveringen als \'gedownload\' aangemerkt zijn, terwijl dit niet het geval is. Druk op de afspeelknop om CoinPod dit te laten detecteren.</string>
+  <string name="import_export_warning">Met deze experimentele functie kun je je abonnementen en afgespeelde afleveringen overzetten naar een ander apparaat.\n\nGeëxporteerde databanken kunnen alleen worden geïmporteerd in dezelfde versie van CashPod, anders kunnen zich problemen voordoen.\n\nNa het importeren kunnen afleveringen als \'gedownload\' aangemerkt zijn, terwijl dit niet het geval is. Druk op de afspeelknop om CashPod dit te laten detecteren.</string>
   <string name="label_import">Importeren</string>
   <string name="label_export">Exporteren</string>
   <string name="import_select_file">Kies een te importeren bestand</string>
   <string name="export_ok">Export voltooid.</string>
-  <string name="import_ok">Geïmporteerd.\n\nDruk op Oké om CoinPod opnieuw te starten.</string>
+  <string name="import_ok">Geïmporteerd.\n\nDruk op Oké om CashPod opnieuw te starten.</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Afspelen op…</string>
   <string name="cast_disconnect_label">Cast-verbinding verbreken</string>
@@ -717,7 +717,7 @@
   <!--<string name="cast_failed_to_connect">Could not connect to the device</string>-->
   <string name="cast_failed_setting_volume">Volume aanpassen mislukt</string>
   <string name="cast_failed_no_connection">Er is geen verbinding met het Cast-apparaat</string>
-  <string name="cast_failed_no_connection_trans">De verbinding met het Cast-apparaat is verbroken; CoinPod probeert de verbinding te herstellen. Wacht een paar seconden en probeer het opnieuw.</string>
+  <string name="cast_failed_no_connection_trans">De verbinding met het Cast-apparaat is verbroken; CashPod probeert de verbinding te herstellen. Wacht een paar seconden en probeer het opnieuw.</string>
   <string name="cast_failed_perform_action">Actie kan niet worden uitgevoerd</string>
   <string name="cast_failed_status_request">Synchroniseren met Cast-apparaat mislukt</string>
   <string name="cast_failed_seek">Opzoeken van nieuwe positie op Cast-apparaat mislukt</string>

@@ -291,7 +291,7 @@ URL файла:
   <string name="player_buffering_msg">Буферизация</string>
   <string name="player_go_to_picture_in_picture">Картинка в картинке</string>
   <string name="playbackservice_notification_title">Воспроизведение подкаста</string>
-  <string name="unknown_media_key">CoinPod - неизвестный ключ носителя: %1$d</string>
+  <string name="unknown_media_key">CashPod - неизвестный ключ носителя: %1$d</string>
   <!--Queue operations-->
   <string name="lock_queue">Заблокировать очередь</string>
   <string name="unlock_queue">Разблокировать очередь</string>
@@ -318,7 +318,7 @@ URL файла:
   <!--Variable Speed-->
   <string name="download_plugin_label">Загрузить плагин</string>
   <string name="no_playback_plugin_title">Плагин не установлен</string>
-  <string name="no_playback_plugin_or_sonic_msg">Чтобы воспользоваться изменением скорости воспроизведения, рекомендуется включить встроенный медиапроигрыватель Sonic [Android 4.1+].\n\nИли же можно загрузить сторонний плагин <i>Prestissimo</i> из Play Store.\nОбо всех проблемах, относящихся к Prestissimo стоит сообщать владельцу плагина, CoinPod к этому не причастен.</string>
+  <string name="no_playback_plugin_or_sonic_msg">Чтобы воспользоваться изменением скорости воспроизведения, рекомендуется включить встроенный медиапроигрыватель Sonic [Android 4.1+].\n\nИли же можно загрузить сторонний плагин <i>Prestissimo</i> из Play Store.\nОбо всех проблемах, относящихся к Prestissimo стоит сообщать владельцу плагина, CashPod к этому не причастен.</string>
   <string name="set_playback_speed_label">Скорость воспроизведения</string>
   <string name="enable_sonic">Включить Sonic</string>
   <!--Empty list labels-->
@@ -413,7 +413,7 @@ URL файла:
   <string name="pref_nav_drawer_feed_order_sum">Выбрать порядок отображения подписок</string>
   <string name="pref_nav_drawer_feed_counter_title">Выбрать счётчик подписок</string>
   <string name="pref_nav_drawer_feed_counter_sum">Выбрать какую информацию показывать в счётчике подписок. Влияет также на очерёдность подписок, если сортировка подписок производится по счётчику.</string>
-  <string name="pref_set_theme_sum">Изменить тему оформления CoinPod</string>
+  <string name="pref_set_theme_sum">Изменить тему оформления CashPod</string>
   <string name="pref_automatic_download_title">Автоматическая загрузка</string>
   <string name="pref_automatic_download_sum">Настроить автоматическую загрузку выпусков.</string>
   <string name="pref_autodl_wifi_filter_title">Включить фильтр Wi-Fi</string>
@@ -489,7 +489,7 @@ URL файла:
   <string name="pref_no_browser_found">Веб-браузер не обнаружен.</string>
   <string name="pref_cast_title">Поддержка Chromecast</string>
   <string name="pref_cast_message_play_flavor">Включить поддержку удалённого воспроизведения на устройствах с Google Cast (таких как Chromecast, динамики или ТВ на ОС Android)</string>
-  <string name="pref_cast_message_free_flavor">Для работы Chromecast требуются собственнические библиотеки третьей стороны, которые не включены в данную версию CoinPod</string>
+  <string name="pref_cast_message_free_flavor">Для работы Chromecast требуются собственнические библиотеки третьей стороны, которые не включены в данную версию CashPod</string>
   <string name="pref_enqueue_downloaded_title">Добавлять загруженные в очередь</string>
   <string name="pref_enqueue_downloaded_summary">Добавлять загруженные выпуски в очередь</string>
   <string name="media_player_builtin">Встроенный в Android проигрыватель</string>
@@ -505,7 +505,7 @@ URL файла:
   <string name="back_button_open_drawer">Открыть боковую панель</string>
   <string name="back_button_double_tap">Выход двойным касанием</string>
   <string name="back_button_show_prompt">Подтверджение выхода</string>
-  <string name="close_prompt">Уверены, что хотите закрыть CoinPod?</string>
+  <string name="close_prompt">Уверены, что хотите закрыть CashPod?</string>
   <string name="double_tap_toast">Коснитесь кнопки \"Назад\" ещё раз, чтобы выйти</string>
   <string name="back_button_go_to_page">Загрузить страницу…</string>
   <string name="back_button_go_to_page_title">Выбрать страницу</string>
@@ -526,7 +526,7 @@ URL файла:
   <string name="opml_import_option">Настройка %1$d</string>
   <string name="opml_import_explanation_1">Укажите путь к файлу на устройстве</string>
   <string name="opml_import_explanation_2">Откройте OPML-файл с помощью внешних приложений: Dropbox, Google Drive или любого файлового менеджера.</string>
-  <string name="opml_import_explanation_3">Множество приложений умеют <i>открывать</i> OPML-файлы <i>в</i> CoinPod, например: Google Mail, Dropbox, Google Drive и большинство файловых менеджеров.</string>
+  <string name="opml_import_explanation_3">Множество приложений умеют <i>открывать</i> OPML-файлы <i>в</i> CashPod, например: Google Mail, Dropbox, Google Drive и большинство файловых менеджеров.</string>
   <string name="start_import_label">Начать импорт</string>
   <string name="opml_import_label">Импорт OPML</string>
   <string name="opml_directory_error">Ошибка</string>
@@ -603,7 +603,7 @@ URL файла:
   <string name="gpodnetauth_device_caption_errorEmpty">Обязательно заполнить</string>
   <string name="gpodnetauth_device_butChoose">Выберите</string>
   <string name="gpodnetauth_finish_title">Авторизация успешна!</string>
-  <string name="gpodnetauth_finish_descr">Поздравляем! Ваш аккаунт на gpodder.net теперь связан с вашим устройством. CoinPod теперь сможет автоматически синхронизировать ваши подписки с аккаунтом gpodder.net</string>
+  <string name="gpodnetauth_finish_descr">Поздравляем! Ваш аккаунт на gpodder.net теперь связан с вашим устройством. CashPod теперь сможет автоматически синхронизировать ваши подписки с аккаунтом gpodder.net</string>
   <string name="gpodnetauth_finish_butsyncnow">Начать синхронизацию</string>
   <string name="gpodnetauth_finish_butgomainscreen">Перейти на главный экран</string>
   <string name="gpodnetsync_auth_error_title">Ошибка авторизации на gpodder.net</string>
@@ -617,7 +617,7 @@ URL файла:
   <string name="selected_folder_label">Выбранная папка:</string>
   <string name="create_folder_label">Создать папку</string>
   <string name="choose_data_directory">Выбрать папку для хранения данных</string>
-  <string name="choose_data_directory_message">Укажите корневую папку для хранения данных. CoinPod создаст необходимые подкаталоги.</string>
+  <string name="choose_data_directory_message">Укажите корневую папку для хранения данных. CashPod создаст необходимые подкаталоги.</string>
   <string name="choose_data_directory_permission_rationale">Для смены папки хранения данных необходим доступ к внешнему хранилищу</string>
   <string name="choose_data_directory_available_space">%1$s из %2$s свободно</string>
   <string name="create_folder_msg">Создать папку \"%1$s\"?</string>
@@ -635,7 +635,7 @@ URL файла:
   <string name="pref_pausePlaybackForFocusLoss_title">Пауза при прерывании</string>
   <string name="pref_resumeAfterCall_sum">Продолжать воспроизведение после завершения звонка</string>
   <string name="pref_resumeAfterCall_title">Продолжать после вызова</string>
-  <string name="pref_restart_required">Следует перезапустить CoinPod для применения настроек.</string>
+  <string name="pref_restart_required">Следует перезапустить CashPod для применения настроек.</string>
   <!--Online feed view-->
   <string name="subscribe_label">Подписаться</string>
   <string name="subscribed_label">Подписка оформлена</string>
@@ -661,10 +661,10 @@ URL файла:
   <string name="episode_filters_hint">По одному слову \n\"По фразе\"</string>
   <string name="keep_updated">Постоянно обновлять</string>
   <string name="keep_updated_summary">Обновлять этот канал при (авто-)обновлении всех каналов</string>
-  <string name="auto_download_disabled_globally">Автоматическая загрузка отключена в основных настройках CoinPod</string>
+  <string name="auto_download_disabled_globally">Автоматическая загрузка отключена в основных настройках CashPod</string>
   <!--Progress information-->
   <string name="progress_upgrading_database">Обновление базы данных</string>
-  <!--CoinPodSP-->
+  <!--CashPodSP-->
   <string name="sp_apps_importing_feeds_msg">Импорт подписок из одноцелевых приложений…</string>
   <!--Add podcast fragment-->
   <string name="search_podcast_hint">Искать подкаст...</string>
@@ -699,8 +699,8 @@ URL файла:
   <string name="sort_duration_short_long">Продолжительности (Короткие \u2192 Длинные)</string>
   <string name="sort_duration_long_short">Продолжительности (Длинные \u2192 Короткие)</string>
   <!--Rating dialog-->
-  <string name="rating_title">Нравится CoinPod?</string>
-  <string name="rating_message">Мы будем благодарны, если вы оцените CoinPod.</string>
+  <string name="rating_title">Нравится CashPod?</string>
+  <string name="rating_message">Мы будем благодарны, если вы оцените CashPod.</string>
   <string name="rating_never_label">Отстань от меня</string>
   <string name="rating_later_label">Напомни позже</string>
   <string name="rating_now_label">Конечно, давай!</string>
@@ -730,12 +730,12 @@ URL файла:
   <string name="subscription_num_columns">Количество колонок</string>
   <!--Database import/export-->
   <string name="import_export">Импорт/экспорт базы данных</string>
-  <string name="import_export_warning">Данная опытная функция поможет перенести Ваши подписки и прослушанные выпуски на другое устройство.\n\nЭкспортированные базы данных можно импортировать только в ту же версию CoinPod. В противном случае может произойти непредвиденное.\n\nПосле импорта выпуски могут быть помечены как загруженные, хотя это и не так. Простого нажатия на кнопку воспроизведения достаточно, чтобы CoinPod распознала такой случай.</string>
+  <string name="import_export_warning">Данная опытная функция поможет перенести Ваши подписки и прослушанные выпуски на другое устройство.\n\nЭкспортированные базы данных можно импортировать только в ту же версию CashPod. В противном случае может произойти непредвиденное.\n\nПосле импорта выпуски могут быть помечены как загруженные, хотя это и не так. Простого нажатия на кнопку воспроизведения достаточно, чтобы CashPod распознала такой случай.</string>
   <string name="label_import">Импорт</string>
   <string name="label_export">Экспорт</string>
   <string name="import_select_file">Выберите импортируемый файл</string>
   <string name="export_ok">Успешно экспортировано.</string>
-  <string name="import_ok">Успешно импортировано.\n\nПожалуйста, нажмите OK, чтобы перезапустить CoinPod</string>
+  <string name="import_ok">Успешно импортировано.\n\nПожалуйста, нажмите OK, чтобы перезапустить CashPod</string>
   <!--Casting-->
   <string name="cast_media_route_menu_title">Воспроизвести на…</string>
   <string name="cast_disconnect_label">Закрыть сеанс передачи Google cast</string>
