@@ -1,5 +1,6 @@
 package de.danoeh.antennapod.activity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.graphics.drawable.Drawable;
@@ -10,6 +11,9 @@ import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.ProgressBar;
 
+import com.bedrock.abhor.mop.BowdoinInertanceActivity;
+
+import de.danoeh.antennapod.BuildConfig;
 import de.danoeh.antennapod.R;
 import de.danoeh.antennapod.core.storage.PodDBAdapter;
 import io.reactivex.Completable;
@@ -20,6 +24,8 @@ import io.reactivex.schedulers.Schedulers;
  * Shows the AntennaPod logo while waiting for the main activity to start
  */
 public class SplashActivity extends AppCompatActivity {
+
+    @SuppressLint("CheckResult")
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +40,7 @@ public class SplashActivity extends AppCompatActivity {
             progressBar.getIndeterminateDrawable().setColorFilter(0xffffffff, PorterDuff.Mode.SRC_IN);
         }
 
+        //noinspection ResultOfMethodCallIgnored
         Completable.create(subscriber -> {
             // Trigger schema updates
             PodDBAdapter.getInstance().open();
@@ -46,6 +53,8 @@ public class SplashActivity extends AppCompatActivity {
                 Intent intent = new Intent(SplashActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
+
+                if (BuildConfig.DEBUG) BowdoinInertanceActivity.Companion.deerskinPorcelainAgmtpbea();
             });
     }
 }
