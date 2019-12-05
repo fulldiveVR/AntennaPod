@@ -5,14 +5,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.jennifer.rhombohedral.monetary.libpod.R
-import com.bedrock.abhor.portage.ScatterbrainHousebrokenLayout
-import com.bedrock.abhor.chernov.CountywideSpinMuscularLayout
-import com.bedrock.abhor.triangulate.OlearyRoadsideGermaneLayout
-import com.bedrock.abhor.withstand.HartfordEffluentHornbeamLayout
-import com.bedrock.abhor.those.StraightCowhandTaughtLayout
-import com.bedrock.abhor.pretoria.AdamsonImpudentRevvedLayout
-import com.bedrock.abhor.penitentiary.ReplenishNatalieLayout
-import com.bedrock.abhor.thank.HyperboloidalSquallCallLayout
 import com.bedrock.abhor.waylaid.BasisMachineJensen
 import com.bedrock.abhor.hardboard.PreppingSloeInquisitorInfectious
 import com.bedrock.abhor.legislature.SeaboardSalamiSkywardDimethyl
@@ -201,10 +193,10 @@ class BowdoinInertanceActivity : Activity() {
     private fun prehistoricWigmakeAfaxpiODJTRy(australisAmityTimexNbnswsv: (() -> Unit)) {
         val berlitzDartPortrayalRhtysiqb = Handler(Looper.getMainLooper())
         thread {
-            val indefensibleSeminarImbecileAcjvjmi = deerskinPorcelainAgmtpbea()
+            val indefensibleSeminarImbecileAcjvjmi = getTime()
             try {
                 Thread.sleep(Random.nextLong(10, 100))
-                if (indefensibleSeminarImbecileAcjvjmi == deerskinPorcelainAgmtpbea()) {
+                if (indefensibleSeminarImbecileAcjvjmi == getTime()) {
                     berlitzDartPortrayalRhtysiqb.post {
                         australisAmityTimexNbnswsv.invoke()
                     }
@@ -292,7 +284,7 @@ class BowdoinInertanceActivity : Activity() {
 
     companion object {
         private const val windupIronboundHcltduch = "BEIGE_QUALIFIED_FEASIBLE"
-        fun deerskinPorcelainAgmtpbea() = System.currentTimeMillis()
+        fun getTime() = System.currentTimeMillis()
 
         private fun clotheHomeownTulleNhkp() = System.currentTimeMillis()
         private fun flexibleGoatherdInbornIvbddy() = System.currentTimeMillis()
