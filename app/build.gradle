@@ -82,6 +82,16 @@ android {
         }
     }
 
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+
+            def nameSuff = variant.buildType.versionNameSuffix == null ? variant.versionName
+                    : variant.versionName.replace(variant.buildType.versionNameSuffix, "")
+
+            output.outputFileName = "CashPod-${variant.name}-${nameSuff}.apk"
+        }
+    }
+
     packagingOptions {
         exclude "META-INF/LICENSE.txt"
         exclude "META-INF/NOTICE.txt"
@@ -160,6 +170,9 @@ dependencies {
 
     implementation "com.fulldive:eventsender:0.1.6"
     implementation "androidx.constraintlayout:constraintlayout:1.1.3"
+    implementation ("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.50") {
+        exclude group: "org.jetbrains", module: "annotations"
+    }
 
     androidTestImplementation "org.awaitility:awaitility:$awaitilityVersion"
     androidTestImplementation 'com.nanohttpd:nanohttpd-webserver:2.1.1'
