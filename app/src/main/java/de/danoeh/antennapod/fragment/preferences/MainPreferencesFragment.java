@@ -74,18 +74,18 @@ public class MainPreferencesFragment extends PreferenceFragmentCompat {
                     return true;
                 }
         );
-        findPreference(PREF_FAQ).setOnPreferenceClickListener(preference -> {
-            IntentUtils.openInBrowser(getContext(), "https://antennapod.org/faq.html");
-            return true;
-        });
-        findPreference(PREF_VIEW_MAILING_LIST).setOnPreferenceClickListener(preference -> {
-            IntentUtils.openInBrowser(getContext(), "https://groups.google.com/forum/#!forum/antennapod");
-            return true;
-        });
-        findPreference(PREF_SEND_BUG_REPORT).setOnPreferenceClickListener(preference -> {
-            startActivity(new Intent(getActivity(), BugReportActivity.class));
-            return true;
-        });
+//        findPreference(PREF_FAQ).setOnPreferenceClickListener(preference -> {
+//            IntentUtils.openInBrowser(getContext(), "https://antennapod.org/faq.html");
+//            return true;
+//        });
+//        findPreference(PREF_VIEW_MAILING_LIST).setOnPreferenceClickListener(preference -> {
+//            IntentUtils.openInBrowser(getContext(), "https://groups.google.com/forum/#!forum/antennapod");
+//            return true;
+//        });
+//        findPreference(PREF_SEND_BUG_REPORT).setOnPreferenceClickListener(preference -> {
+//            startActivity(new Intent(getActivity(), BugReportActivity.class));
+//            return true;
+//        });
     }
 
     private void setupSearch() {
