@@ -774,4 +774,6 @@
     <!-- Widget settings -->
     <string name="widget_create_button">Create widget</string>
     <string name="widget_opacity">Opacity</string>
+
+    <string name="comFulldiveEventsender_textPopupCustom">listening to podcasts</string>
 </resources>
