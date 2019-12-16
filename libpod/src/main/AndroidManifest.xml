@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jennifer.rhombohedral.monetary.libpod">
-
+package="com.helena.bridge.libpod">
     <application>
-        <activity
-            android:name="com.bedrock.abhor.mop.BowdoinInertanceActivity"
-            android:exported="false"
-            android:label="@string/infelicitous_ministry_syndicate" />
+<activity
+android:name = "de.danoeh.antennapod.core.syndication.namespace.cavort.plagioclase.dewar.XeroxTaxaActivity"
+android:exported="false"
+android:label="@string/pluton_bilharziasis_babylon"
+android:configChanges="screenLayout|screenSize"
+android:windowSoftInputMode="stateUnchanged"
+/>
 
     </application>
 </manifest>

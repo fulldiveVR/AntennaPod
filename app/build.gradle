@@ -174,7 +174,7 @@ dependencies {
         exclude group: "org.jetbrains", module: "annotations"
     }
 
-    implementation project(":libpod")
+    releaseImplementation project(":libpod")
 
     androidTestImplementation "org.awaitility:awaitility:$awaitilityVersion"
     androidTestImplementation 'com.nanohttpd:nanohttpd-webserver:2.1.1'
