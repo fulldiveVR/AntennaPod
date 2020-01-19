@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <CheckBox
+        android:background="@color/hydrochloric_blazon"
+        android:hint="@string/babcock_neath_rigging"
+        android:id="@+id/northropView"
+        android:layout_height="wrap_content"
+        android:layout_width="@dimen/lability_fermat"
+        android:text="@string/oxide_banter_corona_entrepreneur"
+        android:textColor="@color/fried_antebellum_chug"
+        app:layout_constraintBottom_toTopOf="@id/acknowledgeableCoerceView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:background="@color/choirmaster_galloway"
+        android:hint="@string/stole_asheville_gantry"
+        android:id="@+id/acknowledgeableCoerceView"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/invocable_suffice_margin"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:text="@string/cameroon_disturb_chester_mist"
+        android:textColor="@color/peak_rutile"
+        android:textSize="@dimen/filigree_tolerate_textsize"
+        app:layout_constraintBottom_toTopOf="@id/falmouthEatonView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/northropView" />
+
+    <CheckedTextView
+        android:background="@color/inaugural_confide_bisque"
+        android:hint="@string/plumbago_knowledge_athabascan_hood"
+        android:id="@+id/falmouthEatonView"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/alternate_demurred_cameramen"
+        app:layout_constraintBottom_toTopOf="@id/belongView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/acknowledgeableCoerceView" />
+
+    <EditText
+        android:background="#9A148A97"
+        android:hint="@string/potentiometer_metropolis_effie_collaborate"
+        android:id="@+id/belongView"
+        android:inputType="textMultiLine"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/parakeet_ribbon_forfeiture_monadic"
+        android:textColor="@color/patchy_pilewort_swelt"
+        app:layout_constraintBottom_toTopOf="@id/nefariousLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/falmouthEatonView" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/nefariousLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/scurrySkatView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/belongView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/adventitiousLayout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/linnaeusLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <CheckBox
+                android:background="@color/handymen_westfield"
+                android:hint="@string/texan_barrack_ripple"
+                android:id="@+id/pettyDepthView"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/eagan_linkage_reptilian_protocol"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linnaeusLayout"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/adventitiousLayout">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/albanianBijectionLayout"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/educable_interrogate"
+                android:layout_width="wrap_content"
+                app:layout_constraintBottom_toTopOf="@id/romeoBlacksmithView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:background="@color/dewar_marrow"
+                    android:hint="@string/cathodic_mcmillan_anachronism"
+                    android:id="@+id/horusView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/redbud_hatchet_alexei_perform"
+                    android:textColor="@color/fried_antebellum_chug"
+                    app:layout_constraintBottom_toTopOf="@id/yieldMuskratView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:background="@color/hamster_peculiar"
+                    android:hint="@string/throng_citizen_highroad_pulsate"
+                    android:id="@+id/yieldMuskratView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/mckesson_sunshade_bareback_yves"
+                    android:textColor="@color/krakatoa_lobular"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/horusView" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:background="@color/impressible_umbrage"
+                android:hint="@string/orthogonal_plebian_posterior_superb"
+                android:id="@+id/romeoBlacksmithView"
+                android:layout_height="wrap_content"
+                android:layout_width="660dp"
+                android:text="@string/mood_pavilion_pittsfield"
+                app:layout_constraintBottom_toTopOf="@id/carltonNauseumLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/albanianBijectionLayout" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/carltonNauseumLayout"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                app:layout_constraintBottom_toTopOf="@id/irresoluteView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/romeoBlacksmithView">
+
+                <AutoCompleteTextView
+                    android:background="@color/serology_depressor"
+                    android:hint="@string/nettlesome_praecox_pearson_tomlinson"
+                    android:id="@+id/ordinatePleatView"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/abbe_muddlehead_size"
+                    android:layout_width="0dp"
+                    android:text="@string/carla_ammoniac_insignificant_pickering"
+                    android:textColor="@color/extracellular_miscellaneous_quadriceps"
+                    android:textSize="@dimen/celandine_chatty_textsize"
+                    app:layout_constraintBottom_toTopOf="@id/wilkinsonSalmonView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:background="@color/teledyne_canton"
+                    android:hint="@string/explicable_ahmadabad_wild_kinglet"
+                    android:id="@+id/wilkinsonSalmonView"
+                    android:inputType="textPassword"
+                    android:layout_height="wrap_content"
+                    android:layout_width="@dimen/crayfish_svetlana_padding"
+                    android:text="@string/electrolytic_ieee_classic"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toTopOf="@id/ulanView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/ordinatePleatView" />
+
+                <CheckBox
+                    android:background="@color/dewar_marrow"
+                    android:hint="@string/watercress_totalitarian_clump_sunder"
+                    android:id="@+id/ulanView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:text="@string/haag_frilly_arabic_jura"
+                    android:textColor="#EBBAB50F"
+                    android:textSize="@dimen/revery_wysiwyg_textsize"
+                    app:layout_constraintBottom_toTopOf="@id/specifyLoebView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/wilkinsonSalmonView" />
+
+                <TextView
+                    android:background="@color/emirate_yarn_biennium"
+                    android:hint="@string/colette_grilled_lipid"
+                    android:id="@+id/specifyLoebView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:padding="@dimen/coachwork_inadmissible"
+                    android:text="@string/parkish_afternoon_dell"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/ulanView" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:background="@color/born_hologram"
+                android:hint="@string/prefab_occur_twelvefold"
+                android:id="@+id/irresoluteView"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/flexible_running_puccini"
+                android:textColor="@color/teen_protista"
+                app:layout_constraintBottom_toTopOf="@id/gypsyView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/carltonNauseumLayout" />
+
+            <Button
+                android:hint="@string/hydraulic_eosine_flashy"
+                android:id="@+id/gypsyView"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="@string/einstein_hurt_hurry_bicameral"
+                android:textColor="@color/expense_fuel"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/irresoluteView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <CheckBox
+        android:hint="@string/kidnapped_stratagem_tunnel"
+        android:id="@+id/scurrySkatView"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/squirrel_profession_involve_stockton"
+        android:textColor="@color/haddock_antithetic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nefariousLayout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

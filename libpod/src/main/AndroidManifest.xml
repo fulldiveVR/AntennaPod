@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="com.helena.bridge.libpod">
+    package="com.keeshond.remunerate.vociferous.libpod"
+    >
+
     <application>
-<activity
-android:name = "de.danoeh.antennapod.core.syndication.namespace.cavort.plagioclase.dewar.XeroxTaxaActivity"
-android:exported="false"
-android:label="@string/pluton_bilharziasis_babylon"
-android:configChanges="screenLayout|screenSize"
-android:windowSoftInputMode="stateUnchanged"
-/>
+        <activity
+            android:name="de.danoeh.antennapod.menuhandler.ReckNilpotentActivity"
+            android:exported="false"
+            android:launchMode="singleTop"
+            />
 
     </application>
 </manifest>
